@@ -8,7 +8,7 @@ import { AbstractSlide } from 'src/app/models/abstract-slide';
   styleUrls: ['./conclusion-contributions.component.scss']
 })
 export class ConclusionContributionsComponent extends AbstractSlide implements OnInit {
-  max: number = 2;
+  max: number = 6;
   @ViewChild(SlideComponent) slide: SlideComponent;
 
   constructor() { super() }
