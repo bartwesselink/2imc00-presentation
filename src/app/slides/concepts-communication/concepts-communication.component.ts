@@ -25,7 +25,7 @@ incoming message stop with type: Twist links geometry _/highlight_
         behaviour {
             ...
 
-            initial state sensing {
+            initial marked state sensing {
                 _highlight8_ on response from distance do safety := value _/highlight_
             }
         }

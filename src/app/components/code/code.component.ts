@@ -58,7 +58,7 @@ const rscd = {
   'number': /-?\b\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
   'punctuation': /[{}[\],]/,
   'operator': /:/,
-  'keyword': /\b(cancel|use|do|integer|none|robot|feedback|action|from|links|state|if|needs|incoming|double|disables|enum|provide|true|object|outgoing|request|import|string|error|interface|default|library|goto|array|datatype|and|value|on|or|initial|false|requirement|message|transition|with|component|boolean|service|response|variable|behaviour|to)\b/,
+  'keyword': /\b(cancel|use|do|integer|none|robot|feedback|action|from|links|state|if|needs|incoming|double|disables|enum|provide|true|object|outgoing|request|import|string|error|interface|default|library|goto|array|datatype|and|value|on|or|initial|marked|false|requirement|message|transition|with|component|boolean|service|response|variable|behaviour|to)\b/,
   'boolean': /\b(?:false|true)\b/,
   'null': {
       pattern: /\bnull\b/,

@@ -17,7 +17,7 @@ export class ConceptsComponentsComponent extends AbstractSlide implements OnInit
   behaviour {
       variable safety: Safety = unsafe
 
-      initial state sensing {}
+      initial marked state sensing {}
   }
 }  _/highlight_
 
@@ -31,7 +31,7 @@ export class ConceptsComponentsComponent extends AbstractSlide implements OnInit
     transition if !has_line_left and !has_line_right goto no_lines
     transition if has_line_left and has_line_right goto both_lines
 
-    initial state no_lines {}
+    initial marked state no_lines {}
     state line_left {}
     state line_right {}
     state both_lines {}
