@@ -28,7 +28,7 @@ datatype object Twist {
 }  _/highlight_
 
     _highlight9_ datatype enum Safety from integer to {
-    value < 10 -> safe
+    value > 10 -> safe
     default -> unsafe
 }  _/highlight_
 
