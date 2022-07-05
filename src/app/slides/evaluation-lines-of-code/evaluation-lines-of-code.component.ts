@@ -86,7 +86,13 @@ export class EvaluationLinesOfCodeComponent extends AbstractSlide implements OnI
         { data: [ 1243, 1222, 1287, 1367, 1157, 1156, 1409, 1157 ], label: 'ROS2', backgroundColor: '#2ecc71', borderRadius: 5 },
       ];
       this.chart.update();
-    } else if (this.step < 1) {
+    }
+  }
+
+  prev(): void {
+    super.prev();
+
+    if (this.step < 1) {
       this.barChartData.datasets = [];
       this.chart.update();
     }

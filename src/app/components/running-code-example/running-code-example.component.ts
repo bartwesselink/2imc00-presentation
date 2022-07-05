@@ -10,6 +10,7 @@ export class RunningCodeExampleComponent implements OnInit {
   @Input() public start: number;
   @Input() public end: number;
   @Input() public current: number;
+  @Input() public text = true;
 
   constructor() { }
 

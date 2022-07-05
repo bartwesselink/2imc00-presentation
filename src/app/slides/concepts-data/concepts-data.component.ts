@@ -28,8 +28,8 @@ datatype object Twist {
 }  _/highlight_
 
     _highlight9_ datatype enum Safety from integer to {
-    value > 10 -> safe
-    default -> unsafe
+    value > 10 -> safe_value
+    default -> unsafe_value
 }  _/highlight_
 
     _highlight10_ provide forward with { linear: { x: 0.4 } } if Line.no_lines

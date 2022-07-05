@@ -15,9 +15,9 @@ export class ConceptsRequirementsComponent extends AbstractSlide implements OnIn
     ...
 
     _highlight8_ requirement Line.both_lines disables forward _/highlight_
-    _highlight9_ requirement forward needs Distance.safety = safe _/highlight_
+    _highlight9_ requirement forward needs Distance.safe _/highlight_
 
-    _highlight10_ requirement stop needs Line.both_lines or Distance.safety = unsafe _/highlight_
+    _highlight10_ requirement stop needs Line.both_lines or Distance.unsafe _/highlight_
 
     ...
 }`
