@@ -1,0 +1,27 @@
+<app-slide>
+  <app-title title="Base"></app-title>
+
+  <app-running-code-example [code]="code" [start]="7" [end]="8" [current]="step"></app-running-code-example>
+
+  <app-two-column-layout>
+    <app-list>
+      <app-list-item [current]="step" [step]="1">
+        Robot
+        <app-list>
+          <app-list-item [current]="step" [step]="2">Modelling controller <span class="emphasize">instance</span></app-list-item>
+          <app-list-item [current]="step" [step]="3">Define <span class="emphasize">bindings</span></app-list-item>
+          <app-list-item [current]="step" [step]="4">Specify <span class="emphasize">behaviour</span></app-list-item>
+        </app-list>
+      </app-list-item>
+      <app-list-item [current]="step" [step]="5">
+        Library
+        <app-list>
+          <app-list-item [current]="step" [step]="6">Stimulate <span class="emphasize">re-use</span> of code</app-list-item>
+        </app-list>
+      </app-list-item>
+    </app-list>
+    <app-figure caption="Partial and simplified of the metamodel of the base concepts." [offset]="20">
+      <img class="image" src="/assets/concepts-base.svg" width="100%">
+    </app-figure>
+  </app-two-column-layout>
+</app-slide>
