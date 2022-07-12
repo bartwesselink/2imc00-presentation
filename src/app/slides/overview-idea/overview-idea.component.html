@@ -1,17 +1,17 @@
 <app-slide>
-  <app-title title="Idea"></app-title>
+  <app-title label="Idea"></app-title>
 
   <app-two-column-layout>
     <app-list>
       <app-list-item [current]="step" [step]="1">
-        Create a <span class="emphasize">supervisory controller</span> to control different <span class="emphasize">parts</span> of the robot
+        Create a <span class="emphasize">supervisory controller</span> to the <span class="emphasize">behaviour</span> of a robot
       </app-list-item>
       <app-list-item [current]="step" [step]="2">
         Continue with work done by Kok et al. <app-citation-reference [citation]="kok"></app-citation-reference>
         <app-list>
           <app-list-item [current]="step" [step]="3">Apply supervisory control theory</app-list-item>
           <app-list-item [current]="step" [step]="4">Synthesize a controller</app-list-item>
-          <app-list-item [current]="step" [step]="5">Manually create bindings to the platform
+          <app-list-item [current]="step" [step]="5">Manually define connection to the middleware
           </app-list-item>
         </app-list>
       </app-list-item>
@@ -19,9 +19,8 @@
       <app-list-item [current]="step" [step]="6">Extend this approach by
         <app-list>
           <app-list-item [current]="step" [step]="7">Using <span class="emphasize">model-driven engineering</span> (MDE) to increase the level of abstraction</app-list-item>
-          <app-list-item [current]="step" [step]="8"><span class="emphasize">Automatically</span> generate platform bindings</app-list-item>
+          <app-list-item [current]="step" [step]="8"><span class="emphasize">Automatically</span> generate platform connections</app-list-item>
           <app-list-item [current]="step" [step]="9">Supporting <span class="emphasize">multiple</span> platforms</app-list-item>
-
         </app-list>
         </app-list-item>
     </app-list>

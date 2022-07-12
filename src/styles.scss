@@ -32,8 +32,12 @@ body {
 * {
   user-select: none;
   box-sizing: border-box;
+  pointer-events: none;
 }
 
+video {
+  pointer-events: all;
+}
 
 .emphasize {
   color: var(--primary);

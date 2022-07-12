@@ -8,7 +8,7 @@ import { AbstractSlide } from 'src/app/models/abstract-slide';
   styleUrls: ['./supervisor-limitations.component.scss']
 })
 export class SupervisorLimitationsComponent extends AbstractSlide implements OnInit {
-  max: number = 3;
+  max: number = 4;
   @ViewChild(SlideComponent) slide: SlideComponent;
 
   constructor() { super() }

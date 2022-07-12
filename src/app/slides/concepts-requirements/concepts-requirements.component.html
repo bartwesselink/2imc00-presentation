@@ -1,5 +1,5 @@
 <app-slide>
-  <app-title title="Requirements"></app-title>
+  <app-title label="Requirements"></app-title>
 
   <app-running-code-example [code]="code" [start]="8" [end]="11" [current]="step"></app-running-code-example>
 
@@ -7,10 +7,10 @@
     <app-list>
       <app-list-item [current]="step" [step]="1"><span class="emphasize">Restrict</span> communication from controller to middleware</app-list-item>
       <app-list-item [current]="step" [step]="2">
-        Two types
+        Two types of requirements
         <app-list>
-          <app-list-item [current]="step" [step]="3">Requirements that communication <span class="emphasize">needs</span> to hold</app-list-item>
-          <app-list-item [current]="step" [step]="4">Requirements that will <span class="emphasize">disable</span> communication if they hold</app-list-item>
+          <app-list-item [current]="step" [step]="3">Conditions that <span class="emphasize">need</span> to hold for communication to take place</app-list-item>
+          <app-list-item [current]="step" [step]="4">Conditions that <span class="emphasize">disable</span> communication if they hold</app-list-item>
         </app-list>
       </app-list-item>
       <app-list-item [current]="step" [step]="5">

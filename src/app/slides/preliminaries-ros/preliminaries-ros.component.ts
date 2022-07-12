@@ -8,7 +8,7 @@ import { AbstractSlide } from 'src/app/models/abstract-slide';
   styleUrls: ['./preliminaries-ros.component.scss']
 })
 export class PreliminariesRosComponent extends AbstractSlide implements OnInit {
-  max: number = 4;
+  max: number = 5;
   @ViewChild(SlideComponent) slide: SlideComponent;
 
   constructor() { super() }

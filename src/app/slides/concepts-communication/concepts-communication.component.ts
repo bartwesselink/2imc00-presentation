@@ -12,10 +12,11 @@ export class ConceptsCommunicationComponent extends AbstractSlide implements OnI
   @ViewChild(SlideComponent) slide: SlideComponent;
 
   code = `robot PresentationRobot {
-    ...
     component Motor {
-        _highlight6_ incoming message forward with type: Twist links geometry
-incoming message stop with type: Twist links geometry _/highlight_
+        _highlight6_ incoming message forward with identifier: "/velocity",
+            type: Twist links geometry
+incoming message stop with identifier: "/velocity",
+            type: Twist links geometry _/highlight_
     }
     component Distance {
         _highlight7_ outgoing message distance with type: Safety _/highlight_

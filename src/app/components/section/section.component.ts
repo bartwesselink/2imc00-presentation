@@ -12,7 +12,7 @@ import { SlideComponent } from '../slide/slide.component';
 export class SectionComponent implements OnInit, VisibleComponent {
   @ContentChildren('slide') public slides: QueryList<SlideItem>;
   @Input() public number: number;
-  @Input() public title: string;
+  @Input() public label: string;
   public active: boolean = false;
   public offsetX = 0;
   public offsetY = 0;

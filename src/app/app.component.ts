@@ -3,6 +3,7 @@ import { SectionComponent } from './components/section/section.component';
 import { VisibleComponent } from './models/visible-component';
 import { first, startWith } from 'rxjs/operators';
 import { ActivatedRoute, Router } from '@angular/router';
+import { autohideCursor } from '@defaude/autohide-cursor';
 
 @Component({
   selector: 'app-root',
@@ -38,6 +39,8 @@ export class AppComponent implements OnInit, AfterViewInit {
       });
 
     this.updateScale();
+
+    autohideCursor(5000);
   }
 
   ngAfterViewInit() {

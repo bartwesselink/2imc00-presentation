@@ -8,7 +8,7 @@ import { AbstractSlide } from 'src/app/models/abstract-slide';
   styleUrls: ['./preliminaries-mde.component.scss']
 })
 export class PreliminariesMdeComponent extends AbstractSlide implements OnInit {
-  max: number = 8;
+  max: number = 9;
   @ViewChild(SlideComponent) slide: SlideComponent;
 
   constructor() { super() }

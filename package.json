@@ -19,6 +19,7 @@
     "@angular/platform-browser": "^14.0.2",
     "@angular/platform-browser-dynamic": "^14.0.2",
     "@angular/router": "^14.0.2",
+    "@defaude/autohide-cursor": "^1.0.2",
     "chart.js": "^3.8.0",
     "ng-inline-svg-2": "^14.0.2",
     "ng2-charts": "^3.0.0-rc.7",

@@ -8,12 +8,12 @@ import { AbstractSlide } from 'src/app/models/abstract-slide';
   styleUrls: ['./concepts-components.component.scss']
 })
 export class ConceptsComponentsComponent extends AbstractSlide implements OnInit {
-  max: number = 9;
+  max: number = 8;
   @ViewChild(SlideComponent) slide: SlideComponent;
 
   code = `robot PresentationRobot {
-    _highlight6_ component Motor { }  _/highlight_
-    _highlight7_ component Distance {
+    _highlight5_ component Motor { }  _/highlight_
+    _highlight6_ component Distance {
   behaviour {
       variable safety: Safety = unsafe_value
 
@@ -22,7 +22,7 @@ export class ConceptsComponentsComponent extends AbstractSlide implements OnInit
   }
 }  _/highlight_
 
-    _highlight8_ component Line {
+    _highlight7_ component Line {
   behaviour {
     initial marked state no_lines {}
     state line_left {}

@@ -4,11 +4,11 @@ import { AbstractSlide } from 'src/app/models/abstract-slide';
 import { SlideItem } from 'src/app/models/slide-item';
 
 @Component({
-  selector: 'app-introduction-idea',
-  templateUrl: './introduction-idea.component.html',
-  styleUrls: ['./introduction-idea.component.scss']
+  selector: 'app-overview-idea',
+  templateUrl: './overview-idea.component.html',
+  styleUrls: ['./overview-idea.component.scss']
 })
-export class IntroductionIdeaComponent extends AbstractSlide implements OnInit {
+export class OverviewIdeaComponent extends AbstractSlide implements OnInit {
   max: number = 9;
   @ViewChild(SlideComponent) slide: SlideComponent;
 

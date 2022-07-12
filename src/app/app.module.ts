@@ -45,7 +45,7 @@ import { EvaluationScenariosComponent } from './slides/evaluation-scenarios/eval
 import { ConclusionContributionsComponent } from './slides/conclusion-contributions/conclusion-contributions.component';
 import { ConclusionVideoComponent } from './slides/conclusion-video/conclusion-video.component';
 import { CodeComponent } from './components/code/code.component';
-import { IntroductionIdeaComponent } from './slides/introduction-idea/introduction-idea.component';
+import { OverviewIdeaComponent } from './slides/overview-idea/overview-idea.component';
 import { CitationReferenceComponent } from './components/citation-reference/citation-reference.component';
 import { OverviewControlLoopComponent } from './slides/overview-control-loop/overview-control-loop.component';
 import { RunningCodeExampleComponent } from './components/running-code-example/running-code-example.component';
@@ -95,7 +95,7 @@ import { NgChartsModule } from 'ng2-charts';
     ConclusionContributionsComponent,
     ConclusionVideoComponent,
     CodeComponent,
-    IntroductionIdeaComponent,
+    OverviewIdeaComponent,
     CitationReferenceComponent,
     OverviewControlLoopComponent,
     RunningCodeExampleComponent,
