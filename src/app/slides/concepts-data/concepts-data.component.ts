@@ -8,15 +8,15 @@ import { AbstractSlide } from 'src/app/models/abstract-slide';
   styleUrls: ['./concepts-data.component.scss']
 })
 export class ConceptsDataComponent extends AbstractSlide implements OnInit {
-  max: number = 11;
+  max: number = 12;
   @ViewChild(SlideComponent) slide: SlideComponent;
 
   code = `robot PresentationRobot {
     ...
 
-    _highlight7_ interface geometry use Twist from geometry_msgs _/highlight_
+    _highlight8_ interface geometry use Twist from geometry_msgs _/highlight_
 
-    _highlight8_ datatype object Vector3 {
+    _highlight9_ datatype object Vector3 {
     x: double
     y: double
     z: double
@@ -27,12 +27,12 @@ datatype object Twist {
     linear: Vector3
 }  _/highlight_
 
-    _highlight9_ datatype enum Safety from integer to {
+    _highlight10_ datatype enum Safety from integer to {
     value > 10 -> safe_value
     default -> unsafe_value
 }  _/highlight_
 
-    _highlight10_ provide forward with { linear: { x: 0.4 } } if Line.no_lines
+    _highlight11_ provide forward with { linear: { x: 0.4 } } if Line.no_lines
 provide forward with { angular: { z: 0.2 } } if Line.line_left
 provide forward with { angular: { z: -0.2 } } if Line.line_right
 
