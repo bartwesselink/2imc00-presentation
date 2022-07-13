@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OverviewGenerationComponent } from './overview-generation.component';
+import { OverviewGenerationComponent } from './tools-generation.component';
 
 describe('OverviewGenerationComponent', () => {
   let component: OverviewGenerationComponent;

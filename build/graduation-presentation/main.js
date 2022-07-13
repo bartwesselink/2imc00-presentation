@@ -54,7 +54,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _slides_preliminaries_ros_actions_preliminaries_ros_actions_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./slides/preliminaries-ros-actions/preliminaries-ros-actions.component */ 5013);
 /* harmony import */ var _slides_preliminaries_mde_preliminaries_mde_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./slides/preliminaries-mde/preliminaries-mde.component */ 1518);
 /* harmony import */ var _slides_overview_main_idea_overview_main_idea_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./slides/overview-main-idea/overview-main-idea.component */ 1685);
-/* harmony import */ var _slides_overview_generation_overview_generation_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./slides/overview-generation/overview-generation.component */ 5957);
+/* harmony import */ var _slides_tools_generation_tools_generation_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./slides/tools-generation/tools-generation.component */ 2781);
 /* harmony import */ var _slides_tools_editors_tools_editors_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./slides/tools-editors/tools-editors.component */ 8026);
 /* harmony import */ var _slides_concepts_base_concepts_base_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./slides/concepts-base/concepts-base.component */ 1081);
 /* harmony import */ var _slides_concepts_components_concepts_components_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./slides/concepts-components/concepts-components.component */ 1513);
@@ -342,13 +342,13 @@ AppComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_31__["
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelement"](13, "app-preliminaries-supervisory-control-theory", null, 6)(15, "app-preliminaries-ros", null, 6)(17, "app-preliminaries-ros-messages", null, 6)(19, "app-preliminaries-ros-services", null, 6)(21, "app-preliminaries-ros-actions", null, 6)(23, "app-preliminaries-mde", null, 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelementStart"](25, "app-section", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelement"](26, "app-overview-idea", null, 6)(28, "app-overview-main-idea", null, 6)(30, "app-overview-control-loop", null, 6)(32, "app-overview-generation", null, 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelement"](26, "app-overview-idea", null, 6)(28, "app-overview-main-idea", null, 6)(30, "app-overview-control-loop", null, 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelementStart"](34, "app-section", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelement"](35, "app-concepts-base", null, 6)(37, "app-concepts-components", null, 6)(39, "app-concepts-communication", null, 6)(41, "app-concepts-data", null, 6)(43, "app-concepts-requirements", null, 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelementStart"](32, "app-section", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelement"](33, "app-concepts-base", null, 6)(35, "app-concepts-components", null, 6)(37, "app-concepts-communication", null, 6)(39, "app-concepts-data", null, 6)(41, "app-concepts-requirements", null, 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelementStart"](45, "app-section", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelement"](46, "app-tools-editors", null, 6)(48, "app-tools-debugging", null, 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelementStart"](43, "app-section", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelement"](44, "app-tools-generation", null, 6)(46, "app-tools-editors", null, 6)(48, "app-tools-debugging", null, 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelementStart"](50, "app-section", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵelement"](51, "app-supervisor-idea", null, 6)(53, "app-supervisor-limitations", null, 6);
@@ -378,11 +378,11 @@ AppComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_31__["
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵproperty"]("number", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵadvance"](13);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵproperty"]("number", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵadvance"](9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵadvance"](7);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵproperty"]("number", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵadvance"](11);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵproperty"]("number", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵadvance"](7);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵproperty"]("number", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵproperty"]("number", 7);
@@ -392,7 +392,7 @@ AppComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_31__["
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵclassProp"]("started", ctx.started && !ctx.ended);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵproperty"]("page", ctx.currentPage)("section", ctx.section);
-    } }, dependencies: [_components_section_section_component__WEBPACK_IMPORTED_MODULE_0__.SectionComponent, _components_generic_footer_generic_footer_component__WEBPACK_IMPORTED_MODULE_2__.GenericFooterComponent, _slides_introduction_problem_introduction_problem_component__WEBPACK_IMPORTED_MODULE_3__.IntroductionProblemComponent, _slides_introduction_demonstration_robot_introduction_demonstration_robot_component__WEBPACK_IMPORTED_MODULE_4__.IntroductionDemonstrationRobotComponent, _slides_opening_opening_component__WEBPACK_IMPORTED_MODULE_5__.OpeningComponent, _slides_preliminaries_supervisory_control_theory_preliminaries_supervisory_control_theory_component__WEBPACK_IMPORTED_MODULE_6__.PreliminariesSupervisoryControlTheoryComponent, _slides_ending_ending_component__WEBPACK_IMPORTED_MODULE_7__.EndingComponent, _slides_preliminaries_ros_preliminaries_ros_component__WEBPACK_IMPORTED_MODULE_8__.PreliminariesRosComponent, _slides_preliminaries_ros_messages_preliminaries_ros_messages_component__WEBPACK_IMPORTED_MODULE_9__.PreliminariesRosMessagesComponent, _slides_preliminaries_ros_services_preliminaries_ros_services_component__WEBPACK_IMPORTED_MODULE_10__.PreliminariesRosServicesComponent, _slides_preliminaries_ros_actions_preliminaries_ros_actions_component__WEBPACK_IMPORTED_MODULE_11__.PreliminariesRosActionsComponent, _slides_preliminaries_mde_preliminaries_mde_component__WEBPACK_IMPORTED_MODULE_12__.PreliminariesMdeComponent, _slides_overview_main_idea_overview_main_idea_component__WEBPACK_IMPORTED_MODULE_13__.OverviewMainIdeaComponent, _slides_overview_generation_overview_generation_component__WEBPACK_IMPORTED_MODULE_14__.OverviewGenerationComponent, _slides_tools_editors_tools_editors_component__WEBPACK_IMPORTED_MODULE_15__.ToolsEditorsComponent, _slides_concepts_base_concepts_base_component__WEBPACK_IMPORTED_MODULE_16__.ConceptsBaseComponent, _slides_concepts_components_concepts_components_component__WEBPACK_IMPORTED_MODULE_17__.ConceptsComponentsComponent, _slides_concepts_communication_concepts_communication_component__WEBPACK_IMPORTED_MODULE_18__.ConceptsCommunicationComponent, _slides_concepts_data_concepts_data_component__WEBPACK_IMPORTED_MODULE_19__.ConceptsDataComponent, _slides_concepts_requirements_concepts_requirements_component__WEBPACK_IMPORTED_MODULE_20__.ConceptsRequirementsComponent, _slides_supervisor_idea_supervisor_idea_component__WEBPACK_IMPORTED_MODULE_21__.SupervisorIdeaComponent, _slides_supervisor_limitations_supervisor_limitations_component__WEBPACK_IMPORTED_MODULE_22__.SupervisorLimitationsComponent, _slides_tools_debugging_tools_debugging_component__WEBPACK_IMPORTED_MODULE_23__.ToolsDebuggingComponent, _slides_evaluation_scenarios_evaluation_scenarios_component__WEBPACK_IMPORTED_MODULE_24__.EvaluationScenariosComponent, _slides_conclusion_contributions_conclusion_contributions_component__WEBPACK_IMPORTED_MODULE_25__.ConclusionContributionsComponent, _slides_conclusion_video_conclusion_video_component__WEBPACK_IMPORTED_MODULE_26__.ConclusionVideoComponent, _slides_overview_idea_overview_idea_component__WEBPACK_IMPORTED_MODULE_27__.OverviewIdeaComponent, _slides_overview_control_loop_overview_control_loop_component__WEBPACK_IMPORTED_MODULE_28__.OverviewControlLoopComponent, _slides_evaluation_lines_of_code_evaluation_lines_of_code_component__WEBPACK_IMPORTED_MODULE_29__.EvaluationLinesOfCodeComponent], styles: [".slideshow[_ngcontent-%COMP%] {\n  position: relative;\n  width: 100vw;\n  height: 100vh;\n}\n\n.main-content[_ngcontent-%COMP%] {\n  --scale: 0;\n  --width: 1920px;\n  --height: 1080px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  margin-left: calc(var(--width) / -2);\n  margin-top: calc(var(--height) / -2);\n  display: block;\n  width: var(--width);\n  height: var(--height);\n  background: var(--primary);\n  overflow: hidden;\n  transform: scale(var(--scale));\n  transition: background 300ms ease-in-out;\n}\n\n.main-content.started[_ngcontent-%COMP%] {\n  background: var(--slide-background);\n}\n\n.camera[_ngcontent-%COMP%] {\n  --x: 1;\n  --y: 1;\n  --opacity: 0;\n  transform: translateX(calc((var(--x) - 1) * var(--width) * -1)) translateY(calc((var(--y) - 1) * var(--height) * -1));\n  transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;\n  opacity: var(--opacity);\n}\n\n.footer[_ngcontent-%COMP%] {\n  opacity: 0;\n  transition: opacity 300ms ease-in-out;\n}\n\n.footer.started[_ngcontent-%COMP%] {\n  opacity: 1;\n}\n\n.opening[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 1;\n  transform: translateY(0);\n  transition: opacity 300ms ease-in-out;\n}\n\n.opening.started[_ngcontent-%COMP%] {\n  animation: slideOut 300ms ease-in-out 1 forwards;\n}\n\n.ending[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 0;\n  transform: translateY(0);\n}\n\n.ending.ended[_ngcontent-%COMP%] {\n  animation: slideIn 300ms ease-in-out 1 forwards;\n}\n\n@keyframes slideOut {\n  0% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(-100%);\n    opacity: 0;\n  }\n}\n\n@keyframes slideIn {\n  0% {\n    transform: translateY(100%);\n    opacity: 0;\n  }\n  100% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7QUFDRjs7QUFFQTtFQUNFLFVBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFFQSxrQkFBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBRUEsb0NBQUE7RUFDQSxvQ0FBQTtFQUVBLGNBQUE7RUFDQSxtQkFBQTtFQUNBLHFCQUFBO0VBQ0EsMEJBQUE7RUFDQSxnQkFBQTtFQUNBLDhCQUFBO0VBQ0Esd0NBQUE7QUFGRjs7QUFLQTtFQUNFLG1DQUFBO0FBRkY7O0FBS0E7RUFDRSxNQUFBO0VBQ0EsTUFBQTtFQUNBLFlBQUE7RUFFQSxxSEFBQTtFQUNBLGtFQUFBO0VBQ0EsdUJBQUE7QUFIRjs7QUFNQTtFQUNFLFVBQUE7RUFDQSxxQ0FBQTtBQUhGOztBQU1BO0VBQ0UsVUFBQTtBQUhGOztBQU1BO0VBQ0Usa0JBQUE7RUFDQSxNQUFBO0VBQ0EsT0FBQTtFQUNBLFVBQUE7RUFDQSx3QkFBQTtFQUNBLHFDQUFBO0FBSEY7O0FBTUE7RUFDRSxnREFBQTtBQUhGOztBQU1BO0VBQ0Usa0JBQUE7RUFDQSxNQUFBO0VBQ0EsT0FBQTtFQUNBLFVBQUE7RUFDQSx3QkFBQTtBQUhGOztBQU1BO0VBQ0UsK0NBQUE7QUFIRjs7QUFNQTtFQUNFO0lBQ0Usd0JBQUE7SUFDQSxVQUFBO0VBSEY7RUFNQTtJQUNFLDRCQUFBO0lBQ0EsVUFBQTtFQUpGO0FBQ0Y7O0FBT0E7RUFDRTtJQUNFLDJCQUFBO0lBQ0EsVUFBQTtFQUxGO0VBUUE7SUFDRSx3QkFBQTtJQUNBLFVBQUE7RUFORjtBQUNGIiwiZmlsZSI6ImFwcC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5zbGlkZXNob3cge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbn1cblxuLm1haW4tY29udGVudCB7XG4gIC0tc2NhbGU6IDA7XG4gIC0td2lkdGg6IDE5MjBweDtcbiAgLS1oZWlnaHQ6IDEwODBweDtcblxuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogNTAlO1xuICBsZWZ0OiA1MCU7XG5cbiAgbWFyZ2luLWxlZnQ6IGNhbGModmFyKC0td2lkdGgpIC8gLTIpO1xuICBtYXJnaW4tdG9wOiBjYWxjKHZhcigtLWhlaWdodCkgLyAtMik7XG5cbiAgZGlzcGxheTogYmxvY2s7XG4gIHdpZHRoOiB2YXIoLS13aWR0aCk7XG4gIGhlaWdodDogdmFyKC0taGVpZ2h0KTtcbiAgYmFja2dyb3VuZDogdmFyKC0tcHJpbWFyeSk7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIHRyYW5zZm9ybTogc2NhbGUodmFyKC0tc2NhbGUpKTtcbiAgdHJhbnNpdGlvbjogYmFja2dyb3VuZCAzMDBtcyBlYXNlLWluLW91dDtcbn1cblxuLm1haW4tY29udGVudC5zdGFydGVkIHtcbiAgYmFja2dyb3VuZDogdmFyKC0tc2xpZGUtYmFja2dyb3VuZCk7XG59XG5cbi5jYW1lcmEge1xuICAtLXg6IDE7XG4gIC0teTogMTtcbiAgLS1vcGFjaXR5OiAwO1xuXG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWChjYWxjKGNhbGModmFyKC0teCkgLSAxKSAqIGNhbGModmFyKC0td2lkdGgpICogLTEpKSkgdHJhbnNsYXRlWShjYWxjKGNhbGModmFyKC0teSkgLSAxKSAqIGNhbGModmFyKC0taGVpZ2h0KSAqIC0xKSkpO1xuICB0cmFuc2l0aW9uOiBvcGFjaXR5IDMwMG1zIGVhc2UtaW4tb3V0LCB0cmFuc2Zvcm0gMzAwbXMgZWFzZS1pbi1vdXQ7XG4gIG9wYWNpdHk6IHZhcigtLW9wYWNpdHkpO1xufVxuXG4uZm9vdGVyIHtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogb3BhY2l0eSAzMDBtcyBlYXNlLWluLW91dDtcbn1cblxuLmZvb3Rlci5zdGFydGVkIHtcbiAgb3BhY2l0eTogMTtcbn1cblxuLm9wZW5pbmcge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMDtcbiAgbGVmdDogMDtcbiAgb3BhY2l0eTogMTtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApO1xuICB0cmFuc2l0aW9uOiBvcGFjaXR5IDMwMG1zIGVhc2UtaW4tb3V0O1xufVxuXG4ub3BlbmluZy5zdGFydGVkIHtcbiAgYW5pbWF0aW9uOiBzbGlkZU91dCAzMDBtcyBlYXNlLWluLW91dCAxIGZvcndhcmRzO1xufVxuXG4uZW5kaW5nIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IDA7XG4gIGxlZnQ6IDA7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTtcbn1cblxuLmVuZGluZy5lbmRlZCB7XG4gIGFuaW1hdGlvbjogc2xpZGVJbiAzMDBtcyBlYXNlLWluLW91dCAxIGZvcndhcmRzO1xufVxuXG5Aa2V5ZnJhbWVzIHNsaWRlT3V0IHtcbiAgMCUge1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTtcbiAgICBvcGFjaXR5OiAxO1xuICB9XG5cbiAgMTAwJSB7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0xMDAlKTtcbiAgICBvcGFjaXR5OiAwO1xuICB9XG59XG5cbkBrZXlmcmFtZXMgc2xpZGVJbiB7XG4gIDAlIHtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMTAwJSk7XG4gICAgb3BhY2l0eTogMDtcbiAgfVxuXG4gIDEwMCUge1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTtcbiAgICBvcGFjaXR5OiAxO1xuICB9XG59XG4iXX0= */"] });
+    } }, dependencies: [_components_section_section_component__WEBPACK_IMPORTED_MODULE_0__.SectionComponent, _components_generic_footer_generic_footer_component__WEBPACK_IMPORTED_MODULE_2__.GenericFooterComponent, _slides_introduction_problem_introduction_problem_component__WEBPACK_IMPORTED_MODULE_3__.IntroductionProblemComponent, _slides_introduction_demonstration_robot_introduction_demonstration_robot_component__WEBPACK_IMPORTED_MODULE_4__.IntroductionDemonstrationRobotComponent, _slides_opening_opening_component__WEBPACK_IMPORTED_MODULE_5__.OpeningComponent, _slides_preliminaries_supervisory_control_theory_preliminaries_supervisory_control_theory_component__WEBPACK_IMPORTED_MODULE_6__.PreliminariesSupervisoryControlTheoryComponent, _slides_ending_ending_component__WEBPACK_IMPORTED_MODULE_7__.EndingComponent, _slides_preliminaries_ros_preliminaries_ros_component__WEBPACK_IMPORTED_MODULE_8__.PreliminariesRosComponent, _slides_preliminaries_ros_messages_preliminaries_ros_messages_component__WEBPACK_IMPORTED_MODULE_9__.PreliminariesRosMessagesComponent, _slides_preliminaries_ros_services_preliminaries_ros_services_component__WEBPACK_IMPORTED_MODULE_10__.PreliminariesRosServicesComponent, _slides_preliminaries_ros_actions_preliminaries_ros_actions_component__WEBPACK_IMPORTED_MODULE_11__.PreliminariesRosActionsComponent, _slides_preliminaries_mde_preliminaries_mde_component__WEBPACK_IMPORTED_MODULE_12__.PreliminariesMdeComponent, _slides_overview_main_idea_overview_main_idea_component__WEBPACK_IMPORTED_MODULE_13__.OverviewMainIdeaComponent, _slides_tools_generation_tools_generation_component__WEBPACK_IMPORTED_MODULE_14__.ToolsGenerationComponent, _slides_tools_editors_tools_editors_component__WEBPACK_IMPORTED_MODULE_15__.ToolsEditorsComponent, _slides_concepts_base_concepts_base_component__WEBPACK_IMPORTED_MODULE_16__.ConceptsBaseComponent, _slides_concepts_components_concepts_components_component__WEBPACK_IMPORTED_MODULE_17__.ConceptsComponentsComponent, _slides_concepts_communication_concepts_communication_component__WEBPACK_IMPORTED_MODULE_18__.ConceptsCommunicationComponent, _slides_concepts_data_concepts_data_component__WEBPACK_IMPORTED_MODULE_19__.ConceptsDataComponent, _slides_concepts_requirements_concepts_requirements_component__WEBPACK_IMPORTED_MODULE_20__.ConceptsRequirementsComponent, _slides_supervisor_idea_supervisor_idea_component__WEBPACK_IMPORTED_MODULE_21__.SupervisorIdeaComponent, _slides_supervisor_limitations_supervisor_limitations_component__WEBPACK_IMPORTED_MODULE_22__.SupervisorLimitationsComponent, _slides_tools_debugging_tools_debugging_component__WEBPACK_IMPORTED_MODULE_23__.ToolsDebuggingComponent, _slides_evaluation_scenarios_evaluation_scenarios_component__WEBPACK_IMPORTED_MODULE_24__.EvaluationScenariosComponent, _slides_conclusion_contributions_conclusion_contributions_component__WEBPACK_IMPORTED_MODULE_25__.ConclusionContributionsComponent, _slides_conclusion_video_conclusion_video_component__WEBPACK_IMPORTED_MODULE_26__.ConclusionVideoComponent, _slides_overview_idea_overview_idea_component__WEBPACK_IMPORTED_MODULE_27__.OverviewIdeaComponent, _slides_overview_control_loop_overview_control_loop_component__WEBPACK_IMPORTED_MODULE_28__.OverviewControlLoopComponent, _slides_evaluation_lines_of_code_evaluation_lines_of_code_component__WEBPACK_IMPORTED_MODULE_29__.EvaluationLinesOfCodeComponent], styles: [".slideshow[_ngcontent-%COMP%] {\n  position: relative;\n  width: 100vw;\n  height: 100vh;\n}\n\n.main-content[_ngcontent-%COMP%] {\n  --scale: 0;\n  --width: 1920px;\n  --height: 1080px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  margin-left: calc(var(--width) / -2);\n  margin-top: calc(var(--height) / -2);\n  display: block;\n  width: var(--width);\n  height: var(--height);\n  background: var(--primary);\n  overflow: hidden;\n  transform: scale(var(--scale));\n  transition: background 300ms ease-in-out;\n}\n\n.main-content.started[_ngcontent-%COMP%] {\n  background: var(--slide-background);\n}\n\n.camera[_ngcontent-%COMP%] {\n  --x: 1;\n  --y: 1;\n  --opacity: 0;\n  transform: translateX(calc((var(--x) - 1) * var(--width) * -1)) translateY(calc((var(--y) - 1) * var(--height) * -1));\n  transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;\n  opacity: var(--opacity);\n}\n\n.footer[_ngcontent-%COMP%] {\n  opacity: 0;\n  transition: opacity 300ms ease-in-out;\n}\n\n.footer.started[_ngcontent-%COMP%] {\n  opacity: 1;\n}\n\n.opening[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 1;\n  transform: translateY(0);\n  transition: opacity 300ms ease-in-out;\n}\n\n.opening.started[_ngcontent-%COMP%] {\n  animation: slideOut 300ms ease-in-out 1 forwards;\n}\n\n.ending[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 0;\n  transform: translateY(0);\n}\n\n.ending.ended[_ngcontent-%COMP%] {\n  animation: slideIn 300ms ease-in-out 1 forwards;\n}\n\n@keyframes slideOut {\n  0% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(-100%);\n    opacity: 0;\n  }\n}\n\n@keyframes slideIn {\n  0% {\n    transform: translateY(100%);\n    opacity: 0;\n  }\n  100% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7QUFDRjs7QUFFQTtFQUNFLFVBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFFQSxrQkFBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBRUEsb0NBQUE7RUFDQSxvQ0FBQTtFQUVBLGNBQUE7RUFDQSxtQkFBQTtFQUNBLHFCQUFBO0VBQ0EsMEJBQUE7RUFDQSxnQkFBQTtFQUNBLDhCQUFBO0VBQ0Esd0NBQUE7QUFGRjs7QUFLQTtFQUNFLG1DQUFBO0FBRkY7O0FBS0E7RUFDRSxNQUFBO0VBQ0EsTUFBQTtFQUNBLFlBQUE7RUFFQSxxSEFBQTtFQUNBLGtFQUFBO0VBQ0EsdUJBQUE7QUFIRjs7QUFNQTtFQUNFLFVBQUE7RUFDQSxxQ0FBQTtBQUhGOztBQU1BO0VBQ0UsVUFBQTtBQUhGOztBQU1BO0VBQ0Usa0JBQUE7RUFDQSxNQUFBO0VBQ0EsT0FBQTtFQUNBLFVBQUE7RUFDQSx3QkFBQTtFQUNBLHFDQUFBO0FBSEY7O0FBTUE7RUFDRSxnREFBQTtBQUhGOztBQU1BO0VBQ0Usa0JBQUE7RUFDQSxNQUFBO0VBQ0EsT0FBQTtFQUNBLFVBQUE7RUFDQSx3QkFBQTtBQUhGOztBQU1BO0VBQ0UsK0NBQUE7QUFIRjs7QUFNQTtFQUNFO0lBQ0Usd0JBQUE7SUFDQSxVQUFBO0VBSEY7RUFNQTtJQUNFLDRCQUFBO0lBQ0EsVUFBQTtFQUpGO0FBQ0Y7O0FBT0E7RUFDRTtJQUNFLDJCQUFBO0lBQ0EsVUFBQTtFQUxGO0VBUUE7SUFDRSx3QkFBQTtJQUNBLFVBQUE7RUFORjtBQUNGIiwiZmlsZSI6ImFwcC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5zbGlkZXNob3cge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbn1cblxuLm1haW4tY29udGVudCB7XG4gIC0tc2NhbGU6IDA7XG4gIC0td2lkdGg6IDE5MjBweDtcbiAgLS1oZWlnaHQ6IDEwODBweDtcblxuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogNTAlO1xuICBsZWZ0OiA1MCU7XG5cbiAgbWFyZ2luLWxlZnQ6IGNhbGModmFyKC0td2lkdGgpIC8gLTIpO1xuICBtYXJnaW4tdG9wOiBjYWxjKHZhcigtLWhlaWdodCkgLyAtMik7XG5cbiAgZGlzcGxheTogYmxvY2s7XG4gIHdpZHRoOiB2YXIoLS13aWR0aCk7XG4gIGhlaWdodDogdmFyKC0taGVpZ2h0KTtcbiAgYmFja2dyb3VuZDogdmFyKC0tcHJpbWFyeSk7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIHRyYW5zZm9ybTogc2NhbGUodmFyKC0tc2NhbGUpKTtcbiAgdHJhbnNpdGlvbjogYmFja2dyb3VuZCAzMDBtcyBlYXNlLWluLW91dDtcbn1cblxuLm1haW4tY29udGVudC5zdGFydGVkIHtcbiAgYmFja2dyb3VuZDogdmFyKC0tc2xpZGUtYmFja2dyb3VuZCk7XG59XG5cbi5jYW1lcmEge1xuICAtLXg6IDE7XG4gIC0teTogMTtcbiAgLS1vcGFjaXR5OiAwO1xuXG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWChjYWxjKGNhbGModmFyKC0teCkgLSAxKSAqIGNhbGModmFyKC0td2lkdGgpICogLTEpKSkgdHJhbnNsYXRlWShjYWxjKGNhbGModmFyKC0teSkgLSAxKSAqIGNhbGModmFyKC0taGVpZ2h0KSAqIC0xKSkpO1xuICB0cmFuc2l0aW9uOiBvcGFjaXR5IDMwMG1zIGVhc2UtaW4tb3V0LCB0cmFuc2Zvcm0gMzAwbXMgZWFzZS1pbi1vdXQ7XG4gIG9wYWNpdHk6IHZhcigtLW9wYWNpdHkpO1xufVxuXG4uZm9vdGVyIHtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogb3BhY2l0eSAzMDBtcyBlYXNlLWluLW91dDtcbn1cblxuLmZvb3Rlci5zdGFydGVkIHtcbiAgb3BhY2l0eTogMTtcbn1cblxuLm9wZW5pbmcge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMDtcbiAgbGVmdDogMDtcbiAgb3BhY2l0eTogMTtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApO1xuICB0cmFuc2l0aW9uOiBvcGFjaXR5IDMwMG1zIGVhc2UtaW4tb3V0O1xufVxuXG4ub3BlbmluZy5zdGFydGVkIHtcbiAgYW5pbWF0aW9uOiBzbGlkZU91dCAzMDBtcyBlYXNlLWluLW91dCAxIGZvcndhcmRzO1xufVxuXG4uZW5kaW5nIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IDA7XG4gIGxlZnQ6IDA7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTtcbn1cblxuLmVuZGluZy5lbmRlZCB7XG4gIGFuaW1hdGlvbjogc2xpZGVJbiAzMDBtcyBlYXNlLWluLW91dCAxIGZvcndhcmRzO1xufVxuXG5Aa2V5ZnJhbWVzIHNsaWRlT3V0IHtcbiAgMCUge1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTtcbiAgICBvcGFjaXR5OiAxO1xuICB9XG5cbiAgMTAwJSB7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0xMDAlKTtcbiAgICBvcGFjaXR5OiAwO1xuICB9XG59XG5cbkBrZXlmcmFtZXMgc2xpZGVJbiB7XG4gIDAlIHtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMTAwJSk7XG4gICAgb3BhY2l0eTogMDtcbiAgfVxuXG4gIDEwMCUge1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTtcbiAgICBvcGFjaXR5OiAxO1xuICB9XG59XG4iXX0= */"] });
 
 
 /***/ }),
@@ -437,7 +437,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _slides_preliminaries_cif_preliminaries_cif_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./slides/preliminaries-cif/preliminaries-cif.component */ 3839);
 /* harmony import */ var _slides_preliminaries_mde_preliminaries_mde_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./slides/preliminaries-mde/preliminaries-mde.component */ 1518);
 /* harmony import */ var _slides_overview_main_idea_overview_main_idea_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./slides/overview-main-idea/overview-main-idea.component */ 1685);
-/* harmony import */ var _slides_overview_generation_overview_generation_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./slides/overview-generation/overview-generation.component */ 5957);
+/* harmony import */ var _slides_tools_generation_tools_generation_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./slides/tools-generation/tools-generation.component */ 2781);
 /* harmony import */ var _slides_overview_scope_overview_scope_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./slides/overview-scope/overview-scope.component */ 110);
 /* harmony import */ var _slides_tools_editors_tools_editors_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./slides/tools-editors/tools-editors.component */ 8026);
 /* harmony import */ var _slides_concepts_base_concepts_base_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./slides/concepts-base/concepts-base.component */ 1081);
@@ -547,7 +547,7 @@ AppModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_48__["ɵ�
         _slides_preliminaries_cif_preliminaries_cif_component__WEBPACK_IMPORTED_MODULE_25__.PreliminariesCifComponent,
         _slides_preliminaries_mde_preliminaries_mde_component__WEBPACK_IMPORTED_MODULE_26__.PreliminariesMdeComponent,
         _slides_overview_main_idea_overview_main_idea_component__WEBPACK_IMPORTED_MODULE_27__.OverviewMainIdeaComponent,
-        _slides_overview_generation_overview_generation_component__WEBPACK_IMPORTED_MODULE_28__.OverviewGenerationComponent,
+        _slides_tools_generation_tools_generation_component__WEBPACK_IMPORTED_MODULE_28__.ToolsGenerationComponent,
         _slides_overview_scope_overview_scope_component__WEBPACK_IMPORTED_MODULE_29__.OverviewScopeComponent,
         _slides_tools_editors_tools_editors_component__WEBPACK_IMPORTED_MODULE_30__.ToolsEditorsComponent,
         _slides_concepts_base_concepts_base_component__WEBPACK_IMPORTED_MODULE_31__.ConceptsBaseComponent,
@@ -2016,7 +2016,7 @@ __webpack_require__.r(__webpack_exports__);
 class ConclusionContributionsComponent extends src_app_models_abstract_slide__WEBPACK_IMPORTED_MODULE_1__.AbstractSlide {
     constructor() {
         super();
-        this.max = 7;
+        this.max = 8;
     }
     ngOnInit() {
     }
@@ -2027,7 +2027,7 @@ ConclusionContributionsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IM
     } if (rf & 2) {
         let _t;
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵloadQuery"]()) && (ctx.slide = _t.first);
-    } }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵInheritDefinitionFeature"]], decls: 33, vars: 14, consts: [["label", "Contributions"], [3, "current", "step"], [1, "emphasize"]], template: function ConclusionContributionsComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵInheritDefinitionFeature"]], decls: 38, vars: 16, consts: [["label", "Contributions"], [3, "current", "step"], [1, "emphasize"], ["href", "https://github.com/bartwesselink/robosc"]], template: function ConclusionContributionsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "app-slide");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "app-title", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "app-two-column-layout")(3, "app-list")(4, "app-list-item", 1);
@@ -2066,7 +2066,13 @@ ConclusionContributionsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IM
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](30, "Evaluated using ");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](31, "span", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](32, "8 scenarios");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](33, "app-list-item");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](34, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](35, "All code is available on GitHub: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](36, "a", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](37, "https://github.com/bartwesselink/robosc");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("current", ctx.step)("step", 1);
@@ -2082,6 +2088,8 @@ ConclusionContributionsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IM
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("current", ctx.step)("step", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("current", ctx.step)("step", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("current", ctx.step)("step", 8);
     } }, dependencies: [src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__.SlideComponent, _components_title_title_component__WEBPACK_IMPORTED_MODULE_2__.TitleComponent, _components_list_list_component__WEBPACK_IMPORTED_MODULE_3__.ListComponent, _components_list_item_list_item_component__WEBPACK_IMPORTED_MODULE_4__.ListItemComponent, _components_two_column_layout_two_column_layout_component__WEBPACK_IMPORTED_MODULE_5__.TwoColumnLayoutComponent], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjb25jbHVzaW9uLWNvbnRyaWJ1dGlvbnMuY29tcG9uZW50LnNjc3MifQ== */"] });
 
 
@@ -2818,158 +2826,6 @@ OverviewControlLoopComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORT
 
 /***/ }),
 
-/***/ 5957:
-/*!*****************************************************************************!*\
-  !*** ./src/app/slides/overview-generation/overview-generation.component.ts ***!
-  \*****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "OverviewGenerationComponent": () => (/* binding */ OverviewGenerationComponent)
-/* harmony export */ });
-/* harmony import */ var src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/slide/slide.component */ 2459);
-/* harmony import */ var src_app_models_abstract_slide__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/models/abstract-slide */ 5726);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ 2560);
-/* harmony import */ var _components_title_title_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/title/title.component */ 9527);
-/* harmony import */ var _components_list_list_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/list/list.component */ 7309);
-/* harmony import */ var _components_list_item_list_item_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/list-item/list-item.component */ 1616);
-/* harmony import */ var _components_two_column_layout_two_column_layout_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/two-column-layout/two-column-layout.component */ 4013);
-/* harmony import */ var _components_figure_figure_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/figure/figure.component */ 3203);
-
-
-
-
-
-
-
-
-
-class OverviewGenerationComponent extends src_app_models_abstract_slide__WEBPACK_IMPORTED_MODULE_1__.AbstractSlide {
-    constructor() {
-        super();
-        this.max = 8;
-    }
-    ngOnInit() {
-    }
-}
-OverviewGenerationComponent.ɵfac = function OverviewGenerationComponent_Factory(t) { return new (t || OverviewGenerationComponent)(); };
-OverviewGenerationComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineComponent"]({ type: OverviewGenerationComponent, selectors: [["app-overview-generation"]], viewQuery: function OverviewGenerationComponent_Query(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵviewQuery"](src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__.SlideComponent, 5);
-    } if (rf & 2) {
-        let _t;
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵloadQuery"]()) && (ctx.slide = _t.first);
-    } }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵInheritDefinitionFeature"]], decls: 71, vars: 24, consts: [["label", "Generation"], [3, "current", "step"], [1, "emphasize"], ["caption", "Artifact generator pipeline."], ["xmlns", "http://www.w3.org/2000/svg", "width", "559", "height", "610", "viewBox", "0 0 559 610"], ["fill", "none", "transform", "translate(3.5 .5)"], ["width", "222", "height", "69", "x", "2.5", "y", "2.5", "fill", "#EE7773", "stroke", "#EE7773", "stroke-width", "5", "rx", "29"], ["fill", "#FFF", "font-family", "FiraSans-Regular, Fira Sans", "font-size", "25"], ["x", "52.636", "y", "46.5"], ["transform", "translate(227 31.658)", 1, "opacity-transition"], ["width", "227", "height", "74", "x", "97", "y", "115.342", "stroke", "#EE7773", "stroke-width", "5", "rx", "29"], ["fill", "#000", "font-family", "FiraSans-Regular, Fira Sans", "font-size", "25"], ["x", "193.136", "y", "160.842"], ["fill", "#EE7773", "d", "M121.272026,17.6275257 C152.363405,33.9134859 178.008131,57.8164166 198.183542,89.2993471 L208.787163,83.3885597 L210.243468,115.778823 L183.457474,97.5097095 L193.808005,91.7387844 C174.119156,61.102744 149.174641,37.8875955 118.951991,22.0566834 C81.5150286,2.44684598 42.5159712,-2.4120499 1.83924549,7.46374299 L0.606103794,7.76751958 L-1.81931126,8.37362337 L-3.03151885,3.52279326 L-0.606103794,2.91668947 C41.7073322,-7.65730858 82.3730791,-2.74811309 121.272026,17.6275257 Z"], ["transform", "translate(325 220.5)", 1, "opacity-transition"], ["width", "227", "height", "74", "y", "58.5", "stroke", "#EE7773", "stroke-width", "5", "rx", "29"], ["x", "55.136", "y", "106"], ["fill", "#EE7773", "d", "M115.456531,-2.04272554 L115.499629,0.456902957 L116.008,29.961 L128.006539,29.7542722 L114.008619,58.9999257 L99.0108484,30.2541979 L111.009,30.047 L110.500371,0.543097043 L110.457274,-1.95653146 L115.456531,-2.04272554 Z"], ["transform", "translate(324 352.5)", 1, "opacity-transition"], ["width", "227", "height", "74", "y", "61.5", "stroke", "#EE7773", "stroke-width", "5", "rx", "29"], ["x", "84.636", "y", "108"], ["fill", "#EE7773", "d", "M115.5,-2 L115.5,33 L127.5,33 L113,62 L98.5,33 L110.5,33 L110.5,-2 L115.5,-2 Z"], ["transform", "translate(0 73.5)", 1, "opacity-transition"], ["transform", "translate(0 458.5)"], ["width", "227", "height", "74", "fill", "#EE7773", "stroke", "#EE7773", "stroke-width", "5", "rx", "29"], ["x", "56.136", "y", "46.5"], ["fill", "#EE7773", "d", "M115.5-2L115.5 430 127.5 430 113 459 98.5 430 110.5 430 110.5-2 115.5-2zM436.657917 411.851482L441.648518 412.157917 441.4953 414.653218C439.881069 440.942522 429.32447 463.687915 409.888054 482.783341 392.001044 500.356544 340.656447 505.982277 255.215262 500.218844L254.263128 512.209933 226.501568 495.460431 256.558105 483.300885 255.61186 495.234187C339.482589 500.884694 389.952707 495.35963 406.383946 479.216659 424.750045 461.172772 434.752785 439.84975 436.452742 415.144886L436.5047 414.346782 436.657917 411.851482z"]], template: function OverviewGenerationComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "app-slide");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](1, "app-title", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](2, "app-two-column-layout")(3, "app-list")(4, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](5, " Synthesize ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](6, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](7, "supervisory controller");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](8, "app-list")(9, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](10, "Convert code to ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](11, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](12, "CIF");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](13, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](14, "Apply synthesis");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](15, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](16, "Generate ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](17, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](18, "engine");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](19, " code from controller");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](20, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](21, " Embed engine in ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](22, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](23, "ROS-node");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](24, " (for both versions) ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](25, "app-list")(26, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](27, "Listen for ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](28, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](29, "incoming");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](30, " data");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](31, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](32, "Execute ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](33, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](34, "control loop");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](35, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](36, "Handle data ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](37, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](38, "storage");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](39, "app-figure", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](40, "svg", 4)(41, "g", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](42, "rect", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](43, "text", 7)(44, "tspan", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](45, "DSL-model");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](46, "g", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](47, "rect", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](48, "text", 11)(49, "tspan", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](50, "CIF");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](51, "path", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](52, "g", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](53, "rect", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](54, "text", 11)(55, "tspan", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](56, "Controller");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](57, "path", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](58, "g", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](59, "rect", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](60, "text", 11)(61, "tspan", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](62, "Code");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](63, "path", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](64, "g", 22)(65, "g", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](66, "rect", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](67, "text", 7)(68, "tspan", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](69, "ROS-node");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](70, "path", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()()()()();
-    } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵclassProp"]("opacity-active", ctx.step >= 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵclassProp"]("opacity-active", ctx.step >= 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵclassProp"]("opacity-active", ctx.step >= 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵclassProp"]("opacity-active", ctx.step >= 5);
-    } }, dependencies: [src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__.SlideComponent, _components_title_title_component__WEBPACK_IMPORTED_MODULE_2__.TitleComponent, _components_list_list_component__WEBPACK_IMPORTED_MODULE_3__.ListComponent, _components_list_item_list_item_component__WEBPACK_IMPORTED_MODULE_4__.ListItemComponent, _components_two_column_layout_two_column_layout_component__WEBPACK_IMPORTED_MODULE_5__.TwoColumnLayoutComponent, _components_figure_figure_component__WEBPACK_IMPORTED_MODULE_6__.FigureComponent], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJvdmVydmlldy1nZW5lcmF0aW9uLmNvbXBvbmVudC5zY3NzIn0= */"] });
-
-
-/***/ }),
-
 /***/ 6738:
 /*!*****************************************************************!*\
   !*** ./src/app/slides/overview-idea/overview-idea.component.ts ***!
@@ -2982,16 +2838,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/slide/slide.component */ 2459);
 /* harmony import */ var src_app_models_abstract_slide__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/models/abstract-slide */ 5726);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/core */ 2560);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/core */ 2560);
 /* harmony import */ var _components_title_title_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/title/title.component */ 9527);
 /* harmony import */ var _components_list_list_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/list/list.component */ 7309);
 /* harmony import */ var _components_list_item_list_item_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/list-item/list-item.component */ 1616);
 /* harmony import */ var _components_two_column_layout_two_column_layout_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/two-column-layout/two-column-layout.component */ 4013);
 /* harmony import */ var _components_citation_citation_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/citation/citation.component */ 5081);
 /* harmony import */ var _components_citations_citations_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/citations/citations.component */ 882);
-/* harmony import */ var _components_figure_figure_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/figure/figure.component */ 3203);
-/* harmony import */ var _components_citation_reference_citation_reference_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/citation-reference/citation-reference.component */ 5598);
-
+/* harmony import */ var _components_citation_reference_citation_reference_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/citation-reference/citation-reference.component */ 5598);
 
 
 
@@ -3012,112 +2866,84 @@ class OverviewIdeaComponent extends src_app_models_abstract_slide__WEBPACK_IMPOR
     }
 }
 OverviewIdeaComponent.ɵfac = function OverviewIdeaComponent_Factory(t) { return new (t || OverviewIdeaComponent)(); };
-OverviewIdeaComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdefineComponent"]({ type: OverviewIdeaComponent, selectors: [["app-overview-idea"]], viewQuery: function OverviewIdeaComponent_Query(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵviewQuery"](src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__.SlideComponent, 5);
+OverviewIdeaComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdefineComponent"]({ type: OverviewIdeaComponent, selectors: [["app-overview-idea"]], viewQuery: function OverviewIdeaComponent_Query(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵviewQuery"](src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__.SlideComponent, 5);
     } if (rf & 2) {
         let _t;
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵloadQuery"]()) && (ctx.slide = _t.first);
-    } }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵInheritDefinitionFeature"]], decls: 70, vars: 22, consts: [["label", "Idea"], [3, "current", "step"], [1, "emphasize"], [3, "citation"], ["caption", "Inserting a supervisory controller into a robot.", 3, "offset", "current", "step"], ["xmlns", "http://www.w3.org/2000/svg", "width", "600", "viewBox", "0 0 831 629"], ["fill", "none", "fill-rule", "evenodd"], ["fill", "#EE7773", "fill-rule", "nonzero", "d", "M738.204107,40.6005885 L742.399412,46.204107 L739.597652,48.3017593 L579.417,168.227 L589.006272,181.035627 L546.099749,188.799665 L565.632433,149.816024 L575.221,162.624 L735.402348,42.6982407 L738.204107,40.6005885 Z"], ["fill", "#EE7773", "fill-rule", "nonzero", "d", "M88.795893 40.6005885L91.5976522 42.6982407 251.778 162.624 261.367567 149.816024 280.900251 188.799665 237.993728 181.035627 247.582 168.227 87.4023478 48.3017593 84.6005885 46.204107 88.795893 40.6005885zM418 237L418 517 434 517 414.5 556 395 517 411 517 411 237 418 237z"], ["width", "274", "height", "174", "x", "277", "y", "180", "fill", "#FFF", "fill-rule", "nonzero", "stroke", "#EE7773", "stroke-width", "5", "rx", "29"], ["width", "180", "height", "74", "fill", "#EE7773", "rx", "37"], ["width", "227", "height", "74", "x", "303.5", "y", "209.5", "fill", "#DE0A10", "fill-rule", "nonzero", "rx", "29"], ["fill", "#0E0E0E", "fill-rule", "nonzero", "font-family", "FiraSans-Regular, Fira Sans", "font-size", "25"], ["x", "326.661", "y", "323"], ["fill", "#FFF", "fill-rule", "nonzero", "font-family", "FiraSans-Regular, Fira Sans", "font-size", "25"], ["x", "41.998", "y", "45"], ["width", "180", "height", "74", "x", "324", "y", "555", "fill", "#EE7773", "rx", "37"], ["x", "356.736", "y", "600"], ["transform", "translate(651)"], ["x", "41.224", "y", "45"], ["fill", "#FFF", "fill-rule", "nonzero", "font-family", "FiraSans-Bold, Fira Sans", "font-size", "25", "font-weight", "bold"], ["x", "348.136", "y", "247"], ["x", "359.086", "y", "275"], ["text", "JW Kok, E Torta, MA Reniers, JM van de Mortel-Fronczak, and MJG van de Molen- graft. Synthesis-based engineering of supervisory controllers for autonomous robotic naviga- tion. IFAC-PapersOnLine, 54(2):259\u2013264, 2021. 1, 13, 15, 74    "], ["kok", ""]], template: function OverviewIdeaComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "app-slide");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](1, "app-title", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](2, "app-two-column-layout")(3, "app-list")(4, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](5, " Create a ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](6, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](7, "supervisory controller");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](8, " to control the ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](9, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](10, "behaviour");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](11, " of a robot ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](12, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](13, " Continue with work done by Kok et al. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](14, "app-citation-reference", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](15, "app-list")(16, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](17, "Apply supervisory control theory");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](18, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](19, "Synthesize a controller");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](20, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](21, "Manually define connection to the middleware ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](22, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](23, "Extend this approach by ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](24, "app-list")(25, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](26, "Using ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](27, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](28, "model-driven engineering");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](29, " (MDE) to increase the level of abstraction");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](30, "app-list-item", 1)(31, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](32, "Automatically");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](33, " generate platform connections");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](34, "app-list-item", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](35, "Supporting ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](36, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](37, "multiple");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](38, " platforms");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](39, "app-figure", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](40, "svg", 5)(41, "g", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](42, "path", 7)(43, "path", 8)(44, "rect", 9)(45, "rect", 10)(46, "rect", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](47, "text", 12)(48, "tspan", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](49, "Controller Node");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](50, "text", 14)(51, "tspan", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](52, "Sensor 1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](53, "rect", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](54, "text", 14)(55, "tspan", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](56, "Actuator 1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](57, "g", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](58, "rect", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](59, "text", 14)(60, "tspan", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](61, "Sensor 2");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](62, "text", 20)(63, "tspan", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](64, "Supervisory");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](65, "tspan", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](66, "Controller");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](67, "app-citations");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](68, "app-citation", 23, 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵloadQuery"]()) && (ctx.slide = _t.first);
+    } }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵInheritDefinitionFeature"]], decls: 42, vars: 19, consts: [["label", "Idea"], [3, "current", "step"], [1, "emphasize"], [3, "citation"], ["text", "JW Kok, E Torta, MA Reniers, JM van de Mortel-Fronczak, and MJG van de Molen- graft. Synthesis-based engineering of supervisory controllers for autonomous robotic naviga- tion. IFAC-PapersOnLine, 54(2):259\u2013264, 2021. 1, 13, 15, 74    "], ["kok", ""]], template: function OverviewIdeaComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "app-slide");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](1, "app-title", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](2, "app-two-column-layout")(3, "app-list")(4, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](5, " Create a ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](6, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](7, "supervisory controller");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](8, " to control the ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](9, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](10, "behaviour");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](11, " of a robot ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](12, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](13, " Continue with work done by Kok et al. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](14, "app-citation-reference", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](15, "app-list")(16, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](17, "Apply supervisory control theory");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](18, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](19, "Synthesize a controller");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](20, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](21, "Manually define connection to the middleware ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](22, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](23, "Extend this approach by ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](24, "app-list")(25, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](26, "Using ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](27, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](28, "model-driven engineering");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](29, " (MDE) to increase the level of abstraction");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](30, "app-list-item", 1)(31, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](32, "Automatically");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](33, " generate platform connections");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](34, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](35, "Supporting ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](36, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](37, "multiple");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](38, " platforms");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](39, "app-citations");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](40, "app-citation", 4, 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
     } if (rf & 2) {
-        const _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵreference"](69);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("current", ctx.step)("step", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("current", ctx.step)("step", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("citation", _r0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("current", ctx.step)("step", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("current", ctx.step)("step", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("current", ctx.step)("step", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("current", ctx.step)("step", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("current", ctx.step)("step", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("current", ctx.step)("step", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("current", ctx.step)("step", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("offset", 0)("current", ctx.step)("step", 3);
-    } }, dependencies: [src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__.SlideComponent, _components_title_title_component__WEBPACK_IMPORTED_MODULE_2__.TitleComponent, _components_list_list_component__WEBPACK_IMPORTED_MODULE_3__.ListComponent, _components_list_item_list_item_component__WEBPACK_IMPORTED_MODULE_4__.ListItemComponent, _components_two_column_layout_two_column_layout_component__WEBPACK_IMPORTED_MODULE_5__.TwoColumnLayoutComponent, _components_citation_citation_component__WEBPACK_IMPORTED_MODULE_6__.CitationComponent, _components_citations_citations_component__WEBPACK_IMPORTED_MODULE_7__.CitationsComponent, _components_figure_figure_component__WEBPACK_IMPORTED_MODULE_8__.FigureComponent, _components_citation_reference_citation_reference_component__WEBPACK_IMPORTED_MODULE_9__.CitationReferenceComponent], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJvdmVydmlldy1pZGVhLmNvbXBvbmVudC5zY3NzIn0= */"] });
+        const _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵreference"](41);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("current", ctx.step)("step", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("current", ctx.step)("step", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("citation", _r0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("current", ctx.step)("step", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("current", ctx.step)("step", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("current", ctx.step)("step", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("current", ctx.step)("step", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("current", ctx.step)("step", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("current", ctx.step)("step", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("current", ctx.step)("step", 9);
+    } }, dependencies: [src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__.SlideComponent, _components_title_title_component__WEBPACK_IMPORTED_MODULE_2__.TitleComponent, _components_list_list_component__WEBPACK_IMPORTED_MODULE_3__.ListComponent, _components_list_item_list_item_component__WEBPACK_IMPORTED_MODULE_4__.ListItemComponent, _components_two_column_layout_two_column_layout_component__WEBPACK_IMPORTED_MODULE_5__.TwoColumnLayoutComponent, _components_citation_citation_component__WEBPACK_IMPORTED_MODULE_6__.CitationComponent, _components_citations_citations_component__WEBPACK_IMPORTED_MODULE_7__.CitationsComponent, _components_citation_reference_citation_reference_component__WEBPACK_IMPORTED_MODULE_8__.CitationReferenceComponent], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJvdmVydmlldy1pZGVhLmNvbXBvbmVudC5zY3NzIn0= */"] });
 
 
 /***/ }),
@@ -4120,7 +3946,7 @@ PreliminariesSupervisoryControlTheoryComponent.ɵcmp = /*@__PURE__*/ _angular_co
     } if (rf & 2) {
         let _t;
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵloadQuery"]()) && (ctx.slide = _t.first);
-    } }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵInheritDefinitionFeature"]], decls: 106, vars: 18, consts: [["label", "Supervisory Control Theory"], [3, "current", "step"], [3, "citation"], [1, "emphasize"], ["caption", "Example of two plants and requirements in Supervisory Control Theory.", 3, "offset", "current", "step"], ["width", "500", "viewBox", "0 0 560 688", "xmlns", "http://www.w3.org/2000/svg"], ["fill", "none", "fill-rule", "evenodd"], ["transform", "translate(15)"], ["stroke", "#979797", "stroke-width", "4", "cx", "60.5", "cy", "157.5", "r", "58.5"], ["stroke", "#979797", "stroke-width", "4", "cx", "440.5", "cy", "157.5", "r", "58.5"], ["stroke", "#979797", "stroke-width", "4", "cx", "60.5", "cy", "157.5", "r", "45.5"], ["d", "m374.214 140.88 7.957 16.543 1.156 2.403-2.654-.26-18.27-1.79.293-2.986 15.615 1.53-6.8-14.14 2.703-1.3Zm-245.91 9.591 1.699 2.472a322.246 322.246 0 0 0-6.493 4.583l-1.623 1.183-1.774-2.418c2.73-2.003 5.46-3.943 8.19-5.82Zm235.53-5.87c1.198.763 2.396 1.539 3.607 2.335l1.215.804 3.534 2.47-1.718 2.46-3.506-2.451c-1.054-.7-2.109-1.392-3.163-2.074l-1.582-1.015 1.613-2.53Zm-218.599-4.961 1.529 2.582a282.714 282.714 0 0 0-6.777 4.142l-1.694 1.076-1.618-2.526a287.558 287.558 0 0 1 8.56-5.274Zm201.308-5.22a267.205 267.205 0 0 1 7.006 3.922l1.751 1.024-1.523 2.584a267.587 267.587 0 0 0-6.927-3.946l-1.732-.944 1.425-2.64Zm-183.628-4.366 1.326 2.692a248.977 248.977 0 0 0-7.061 3.618l-1.766.95-1.43-2.637a253.529 253.529 0 0 1 8.931-4.623Zm165.533-4.483a236.592 236.592 0 0 1 7.304 3.35l1.826.885-1.319 2.694a236.377 236.377 0 0 0-7.212-3.382l-1.803-.8 1.204-2.747ZM181.36 121.93l1.087 2.796c-2.447.951-4.894 1.953-7.34 3.006l-1.836.8-1.21-2.745c3.1-1.367 6.2-2.652 9.3-3.857Zm128.282-3.605c2.528.84 5.056 1.735 7.584 2.683l1.896.72-1.08 2.8a211.336 211.336 0 0 0-7.477-2.725l-1.87-.63.947-2.848Zm-109.203-2.785.812 2.888c-2.53.711-5.059 1.478-7.589 2.299l-1.897.626-.954-2.844a203.825 203.825 0 0 1 9.628-2.97Zm89.798-2.605c2.715.606 5.43 1.275 8.146 2.005l1.63.446-.805 2.89a192.713 192.713 0 0 0-7.7-1.973l-1.925-.44.654-2.928Zm-70.123-1.842.505 2.958c-2.702.461-5.405.985-8.108 1.572l-1.622.359-.662-2.926c3.296-.746 6.591-1.4 9.887-1.963Zm50.238-1.486c2.774.31 5.548.683 8.322 1.122l1.665.272-.496 2.958a180.589 180.589 0 0 0-8.186-1.18l-1.638-.19.333-2.982Zm-30.23-.805.175 2.995c-2.744.16-5.488.385-8.233.674l-1.646.181-.342-2.98c3.349-.385 6.698-.674 10.047-.87Zm10.375-.302c2.724 0 5.445.062 8.166.187l1.632.082-.165 2.996a175.327 175.327 0 0 0-7.705-.254l-1.928-.011h-.282l-.005-3h.287Z", "fill", "#979797", "fill-rule", "nonzero"], ["d", "M250.5 217.5c-39.017 0-78.007-12.824-116.978-38.461l-1.18-.78-8.325-5.82 5.472 11.381-2.703 1.3-7.957-16.543-1.156-2.403 2.654.26 18.27 1.79-.293 2.986-12.571-1.232 8.298 5.802c38.865 25.824 77.68 38.72 116.469 38.72 42.399 0 84.833-15.41 127.325-46.27l1.288-.94 1.774 2.42c-43.41 31.845-86.881 47.79-130.387 47.79Z", "fill", "#979797", "fill-rule", "nonzero"], ["font-family", "FiraSans-Regular, Fira Sans", "font-size", "25", "fill", "#000"], ["x", "244.2", "y", "90"], ["x", "243.575", "y", "254"], ["x", "55.087", "y", "165"], ["x", "435.262", "y", "162"], ["font-family", "FiraSans-Bold, Fira Sans", "font-size", "25", "font-weight", "bold", "fill", "#000"], ["x", ".75", "y", "29"], ["transform", "translate(15 297)"], ["stroke", "#979797", "stroke-width", "4", "cx", "60.5", "cy", "144.5", "r", "58.5"], ["stroke", "#979797", "stroke-width", "4", "cx", "440.5", "cy", "144.5", "r", "58.5"], ["stroke", "#979797", "stroke-width", "4", "cx", "60.5", "cy", "144.5", "r", "45.5"], ["d", "m374.214 127.88 7.957 16.543 1.156 2.403-2.654-.26-18.27-1.79.293-2.986 15.615 1.53-6.8-14.14 2.703-1.3Zm-245.91 9.591 1.699 2.472a322.246 322.246 0 0 0-6.493 4.583l-1.623 1.183-1.774-2.418c2.73-2.003 5.46-3.943 8.19-5.82Zm235.53-5.87c1.198.763 2.396 1.539 3.607 2.335l1.215.804 3.534 2.47-1.718 2.46-3.506-2.451c-1.054-.7-2.109-1.392-3.163-2.074l-1.582-1.015 1.613-2.53Zm-218.599-4.961 1.529 2.582a282.714 282.714 0 0 0-6.777 4.142l-1.694 1.076-1.618-2.526a287.558 287.558 0 0 1 8.56-5.274Zm201.308-5.22a267.205 267.205 0 0 1 7.006 3.922l1.751 1.024-1.523 2.584a267.587 267.587 0 0 0-6.927-3.946l-1.732-.944 1.425-2.64Zm-183.628-4.366 1.326 2.692a248.977 248.977 0 0 0-7.061 3.618l-1.766.95-1.43-2.637a253.529 253.529 0 0 1 8.931-4.623Zm165.533-4.483a236.592 236.592 0 0 1 7.304 3.35l1.826.885-1.319 2.694a236.377 236.377 0 0 0-7.212-3.382l-1.803-.8 1.204-2.747ZM181.36 108.93l1.087 2.796c-2.447.951-4.894 1.953-7.34 3.006l-1.836.8-1.21-2.745c3.1-1.367 6.2-2.652 9.3-3.857Zm128.282-3.605c2.528.84 5.056 1.735 7.584 2.683l1.896.72-1.08 2.8a211.336 211.336 0 0 0-7.477-2.725l-1.87-.63.947-2.848Zm-109.203-2.785.812 2.888c-2.53.711-5.059 1.478-7.589 2.299l-1.897.626-.954-2.844a203.825 203.825 0 0 1 9.628-2.97Zm89.798-2.605c2.715.606 5.43 1.275 8.146 2.005l1.63.446-.805 2.89a192.713 192.713 0 0 0-7.7-1.973l-1.925-.44.654-2.928Zm-70.123-1.842.505 2.958c-2.702.461-5.405.985-8.108 1.572l-1.622.359-.662-2.926c3.296-.746 6.591-1.4 9.887-1.963Zm50.238-1.486c2.774.31 5.548.683 8.322 1.122l1.665.272-.496 2.958a180.589 180.589 0 0 0-8.186-1.18l-1.638-.19.333-2.982Zm-30.23-.805.175 2.995c-2.744.16-5.488.385-8.233.674l-1.646.181-.342-2.98a180.05 180.05 0 0 1 10.047-.87Zm10.375-.302c2.724 0 5.445.062 8.166.187l1.632.082-.165 2.996a175.329 175.329 0 0 0-7.705-.254l-1.928-.011h-.282l-.005-3h.287Z", "fill", "#979797", "fill-rule", "nonzero"], ["d", "M250.5 204.5c-39.017 0-78.007-12.824-116.978-38.461l-1.18-.78-8.325-5.82 5.472 11.381-2.703 1.3-7.957-16.543-1.156-2.403 2.654.26 18.27 1.79-.293 2.986-12.571-1.232 8.298 5.802c38.865 25.824 77.68 38.72 116.469 38.72 42.399 0 84.833-15.41 127.325-46.27l1.288-.94 1.774 2.42c-43.41 31.845-86.881 47.79-130.387 47.79Z", "fill", "#979797", "fill-rule", "nonzero"], ["x", "245.025", "y", "77"], ["x", "243.525", "y", "241"], ["x", "54.263", "y", "153"], ["x", "433.85", "y", "152"], ["x", ".412", "y", "29"], [1, "opacity-transition"], ["transform", "translate(0 608)", "fill", "#000", "font-family", "FiraSans-Bold, Fira Sans", "font-size", "25", "font-weight", "bold"], ["x", "0", "y", "29"], ["x", "147.425", "y", "29", "font-family", "FiraSans-Regular, Fira Sans", "font-weight", "normal"], ["x", "168.9", "y", "29"], ["x", "238", "y", "29", "font-family", "FiraSans-Regular, Fira Sans", "font-weight", "normal"], ["x", "331.825", "y", "29"], ["x", "481.725", "y", "29", "font-family", "FiraSans-Regular, Fira Sans", "font-weight", "normal"], ["transform", "translate(1 652)", "fill", "#000", "font-family", "FiraSans-Bold, Fira Sans", "font-size", "25", "font-weight", "bold"], ["x", "169", "y", "29"], ["x", "238.1", "y", "29", "font-family", "FiraSans-Regular, Fira Sans", "font-weight", "normal"], ["x", "331.05", "y", "29"], ["x", "480.95", "y", "29", "font-family", "FiraSans-Regular, Fira Sans", "font-weight", "normal"], ["text", "Peter J. Ramadge and W. Murray Wonham. Supervisory control of a class of discrete event processes. SIAM journal on control and optimization, 25(1):206\u2013230, 1987. 1, 2, 6"], ["ramadge", ""]], template: function PreliminariesSupervisoryControlTheoryComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵInheritDefinitionFeature"]], decls: 106, vars: 34, consts: [["label", "Supervisory Control Theory"], [3, "current", "step"], [3, "citation"], [1, "emphasize"], ["caption", "Example of two plants and requirements in Supervisory Control Theory.", 3, "offset", "current", "step"], ["width", "500", "viewBox", "0 0 560 688", "xmlns", "http://www.w3.org/2000/svg"], ["fill", "none", "fill-rule", "evenodd"], ["transform", "translate(15)"], ["stroke", "#979797", "stroke-width", "4", "cx", "60.5", "cy", "157.5", "r", "58.5"], ["stroke", "#979797", "stroke-width", "4", "cx", "440.5", "cy", "157.5", "r", "58.5"], ["stroke", "#979797", "stroke-width", "4", "cx", "60.5", "cy", "157.5", "r", "45.5"], ["d", "m374.214 140.88 7.957 16.543 1.156 2.403-2.654-.26-18.27-1.79.293-2.986 15.615 1.53-6.8-14.14 2.703-1.3Zm-245.91 9.591 1.699 2.472a322.246 322.246 0 0 0-6.493 4.583l-1.623 1.183-1.774-2.418c2.73-2.003 5.46-3.943 8.19-5.82Zm235.53-5.87c1.198.763 2.396 1.539 3.607 2.335l1.215.804 3.534 2.47-1.718 2.46-3.506-2.451c-1.054-.7-2.109-1.392-3.163-2.074l-1.582-1.015 1.613-2.53Zm-218.599-4.961 1.529 2.582a282.714 282.714 0 0 0-6.777 4.142l-1.694 1.076-1.618-2.526a287.558 287.558 0 0 1 8.56-5.274Zm201.308-5.22a267.205 267.205 0 0 1 7.006 3.922l1.751 1.024-1.523 2.584a267.587 267.587 0 0 0-6.927-3.946l-1.732-.944 1.425-2.64Zm-183.628-4.366 1.326 2.692a248.977 248.977 0 0 0-7.061 3.618l-1.766.95-1.43-2.637a253.529 253.529 0 0 1 8.931-4.623Zm165.533-4.483a236.592 236.592 0 0 1 7.304 3.35l1.826.885-1.319 2.694a236.377 236.377 0 0 0-7.212-3.382l-1.803-.8 1.204-2.747ZM181.36 121.93l1.087 2.796c-2.447.951-4.894 1.953-7.34 3.006l-1.836.8-1.21-2.745c3.1-1.367 6.2-2.652 9.3-3.857Zm128.282-3.605c2.528.84 5.056 1.735 7.584 2.683l1.896.72-1.08 2.8a211.336 211.336 0 0 0-7.477-2.725l-1.87-.63.947-2.848Zm-109.203-2.785.812 2.888c-2.53.711-5.059 1.478-7.589 2.299l-1.897.626-.954-2.844a203.825 203.825 0 0 1 9.628-2.97Zm89.798-2.605c2.715.606 5.43 1.275 8.146 2.005l1.63.446-.805 2.89a192.713 192.713 0 0 0-7.7-1.973l-1.925-.44.654-2.928Zm-70.123-1.842.505 2.958c-2.702.461-5.405.985-8.108 1.572l-1.622.359-.662-2.926c3.296-.746 6.591-1.4 9.887-1.963Zm50.238-1.486c2.774.31 5.548.683 8.322 1.122l1.665.272-.496 2.958a180.589 180.589 0 0 0-8.186-1.18l-1.638-.19.333-2.982Zm-30.23-.805.175 2.995c-2.744.16-5.488.385-8.233.674l-1.646.181-.342-2.98c3.349-.385 6.698-.674 10.047-.87Zm10.375-.302c2.724 0 5.445.062 8.166.187l1.632.082-.165 2.996a175.327 175.327 0 0 0-7.705-.254l-1.928-.011h-.282l-.005-3h.287Z", "fill", "#979797", "fill-rule", "nonzero", 1, "opacity-transition"], ["d", "M250.5 217.5c-39.017 0-78.007-12.824-116.978-38.461l-1.18-.78-8.325-5.82 5.472 11.381-2.703 1.3-7.957-16.543-1.156-2.403 2.654.26 18.27 1.79-.293 2.986-12.571-1.232 8.298 5.802c38.865 25.824 77.68 38.72 116.469 38.72 42.399 0 84.833-15.41 127.325-46.27l1.288-.94 1.774 2.42c-43.41 31.845-86.881 47.79-130.387 47.79Z", "fill", "#979797", "fill-rule", "nonzero", 1, "opacity-transition"], ["font-family", "FiraSans-Regular, Fira Sans", "font-size", "25", "fill", "#000", 1, "opacity-transition"], ["x", "244.2", "y", "90"], ["x", "243.575", "y", "254"], ["font-family", "FiraSans-Regular, Fira Sans", "font-size", "25", "fill", "#000"], ["x", "55.087", "y", "165"], ["x", "435.262", "y", "162"], ["font-family", "FiraSans-Bold, Fira Sans", "font-size", "25", "font-weight", "bold", "fill", "#000"], ["x", ".75", "y", "29"], ["transform", "translate(15 297)"], ["stroke", "#979797", "stroke-width", "4", "cx", "60.5", "cy", "144.5", "r", "58.5"], ["stroke", "#979797", "stroke-width", "4", "cx", "440.5", "cy", "144.5", "r", "58.5"], ["stroke", "#979797", "stroke-width", "4", "cx", "60.5", "cy", "144.5", "r", "45.5"], ["d", "m374.214 127.88 7.957 16.543 1.156 2.403-2.654-.26-18.27-1.79.293-2.986 15.615 1.53-6.8-14.14 2.703-1.3Zm-245.91 9.591 1.699 2.472a322.246 322.246 0 0 0-6.493 4.583l-1.623 1.183-1.774-2.418c2.73-2.003 5.46-3.943 8.19-5.82Zm235.53-5.87c1.198.763 2.396 1.539 3.607 2.335l1.215.804 3.534 2.47-1.718 2.46-3.506-2.451c-1.054-.7-2.109-1.392-3.163-2.074l-1.582-1.015 1.613-2.53Zm-218.599-4.961 1.529 2.582a282.714 282.714 0 0 0-6.777 4.142l-1.694 1.076-1.618-2.526a287.558 287.558 0 0 1 8.56-5.274Zm201.308-5.22a267.205 267.205 0 0 1 7.006 3.922l1.751 1.024-1.523 2.584a267.587 267.587 0 0 0-6.927-3.946l-1.732-.944 1.425-2.64Zm-183.628-4.366 1.326 2.692a248.977 248.977 0 0 0-7.061 3.618l-1.766.95-1.43-2.637a253.529 253.529 0 0 1 8.931-4.623Zm165.533-4.483a236.592 236.592 0 0 1 7.304 3.35l1.826.885-1.319 2.694a236.377 236.377 0 0 0-7.212-3.382l-1.803-.8 1.204-2.747ZM181.36 108.93l1.087 2.796c-2.447.951-4.894 1.953-7.34 3.006l-1.836.8-1.21-2.745c3.1-1.367 6.2-2.652 9.3-3.857Zm128.282-3.605c2.528.84 5.056 1.735 7.584 2.683l1.896.72-1.08 2.8a211.336 211.336 0 0 0-7.477-2.725l-1.87-.63.947-2.848Zm-109.203-2.785.812 2.888c-2.53.711-5.059 1.478-7.589 2.299l-1.897.626-.954-2.844a203.825 203.825 0 0 1 9.628-2.97Zm89.798-2.605c2.715.606 5.43 1.275 8.146 2.005l1.63.446-.805 2.89a192.713 192.713 0 0 0-7.7-1.973l-1.925-.44.654-2.928Zm-70.123-1.842.505 2.958c-2.702.461-5.405.985-8.108 1.572l-1.622.359-.662-2.926c3.296-.746 6.591-1.4 9.887-1.963Zm50.238-1.486c2.774.31 5.548.683 8.322 1.122l1.665.272-.496 2.958a180.589 180.589 0 0 0-8.186-1.18l-1.638-.19.333-2.982Zm-30.23-.805.175 2.995c-2.744.16-5.488.385-8.233.674l-1.646.181-.342-2.98a180.05 180.05 0 0 1 10.047-.87Zm10.375-.302c2.724 0 5.445.062 8.166.187l1.632.082-.165 2.996a175.329 175.329 0 0 0-7.705-.254l-1.928-.011h-.282l-.005-3h.287Z", "fill", "#979797", "fill-rule", "nonzero", 1, "opacity-transition"], ["d", "M250.5 204.5c-39.017 0-78.007-12.824-116.978-38.461l-1.18-.78-8.325-5.82 5.472 11.381-2.703 1.3-7.957-16.543-1.156-2.403 2.654.26 18.27 1.79-.293 2.986-12.571-1.232 8.298 5.802c38.865 25.824 77.68 38.72 116.469 38.72 42.399 0 84.833-15.41 127.325-46.27l1.288-.94 1.774 2.42c-43.41 31.845-86.881 47.79-130.387 47.79Z", "fill", "#979797", "fill-rule", "nonzero", 1, "opacity-transition"], ["x", "245.025", "y", "77"], ["x", "243.525", "y", "241"], ["x", "54.263", "y", "153"], ["x", "433.85", "y", "152"], ["x", ".412", "y", "29"], [1, "opacity-transition"], ["transform", "translate(0 608)", "fill", "#000", "font-family", "FiraSans-Bold, Fira Sans", "font-size", "25", "font-weight", "bold"], ["x", "0", "y", "29"], ["x", "147.425", "y", "29", "font-family", "FiraSans-Regular, Fira Sans", "font-weight", "normal"], ["x", "168.9", "y", "29"], ["x", "238", "y", "29", "font-family", "FiraSans-Regular, Fira Sans", "font-weight", "normal"], ["x", "331.825", "y", "29"], ["x", "481.725", "y", "29", "font-family", "FiraSans-Regular, Fira Sans", "font-weight", "normal"], ["transform", "translate(1 652)", "fill", "#000", "font-family", "FiraSans-Bold, Fira Sans", "font-size", "25", "font-weight", "bold"], ["x", "169", "y", "29"], ["x", "238.1", "y", "29", "font-family", "FiraSans-Regular, Fira Sans", "font-weight", "normal"], ["x", "331.05", "y", "29"], ["x", "480.95", "y", "29", "font-family", "FiraSans-Regular, Fira Sans", "font-weight", "normal"], ["text", "Peter J. Ramadge and W. Murray Wonham. Supervisory control of a class of discrete event processes. SIAM journal on control and optimization, 25(1):206\u2013230, 1987. 1, 2, 6"], ["ramadge", ""]], template: function PreliminariesSupervisoryControlTheoryComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "app-slide");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](1, "app-title", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](2, "app-two-column-layout")(3, "app-list")(4, "app-list-item", 1);
@@ -4130,14 +3956,14 @@ PreliminariesSupervisoryControlTheoryComponent.ɵcmp = /*@__PURE__*/ _angular_co
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](7, "app-list-item", 1)(8, "span", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](9, "Restrict");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](10, " behaviour of discrete event system ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](10, " behaviour of discrete event system based on specifications ");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](11, "app-list-item", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](12, "Model ");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](13, "span", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](14, "plants");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](15, " as automata");
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](15, " with automata");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](16, "app-list-item", 1)(17, "span", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](18, "Controllable");
@@ -4166,71 +3992,71 @@ PreliminariesSupervisoryControlTheoryComponent.ɵcmp = /*@__PURE__*/ _angular_co
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](42, "text", 13)(43, "tspan", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](44, "b");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](45, "text", 13)(46, "tspan", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](45, "text", 16)(46, "tspan", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](47, "1");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](48, "text", 13)(49, "tspan", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](48, "text", 16)(49, "tspan", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](50, "2");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](51, "text", 18)(52, "tspan", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](51, "text", 19)(52, "tspan", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](53, "Plant A");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](54, "g", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](55, "circle", 21)(56, "circle", 21)(57, "circle", 22)(58, "circle", 23)(59, "path", 24)(60, "path", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](61, "text", 13)(62, "tspan", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](54, "g", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](55, "circle", 22)(56, "circle", 22)(57, "circle", 23)(58, "circle", 24)(59, "path", 25)(60, "path", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](61, "text", 13)(62, "tspan", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](63, "c");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](64, "text", 13)(65, "tspan", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](64, "text", 13)(65, "tspan", 28);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](66, "d");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](67, "text", 13)(68, "tspan", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](67, "text", 16)(68, "tspan", 29);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](69, "3");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](70, "text", 13)(71, "tspan", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](70, "text", 16)(71, "tspan", 30);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](72, "4");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](73, "text", 18)(74, "tspan", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](73, "text", 19)(74, "tspan", 31);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](75, "Plant B");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](76, "g", 31)(77, "text", 32)(78, "tspan", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](76, "g", 32)(77, "text", 33)(78, "tspan", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](79, "requirement ");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](80, "tspan", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](80, "tspan", 35);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](81, "b ");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](82, "tspan", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](82, "tspan", 36);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](83, "needs");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](84, "tspan", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](84, "tspan", 37);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](85, " Plant B ");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](86, "tspan", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](86, "tspan", 38);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](87, "to be in state");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](88, "tspan", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](88, "tspan", 39);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](89, " 4");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](90, "text", 39)(91, "tspan", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](90, "text", 40)(91, "tspan", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](92, "requirement ");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](93, "tspan", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](93, "tspan", 35);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](94, "d ");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](95, "tspan", 40);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](95, "tspan", 41);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](96, "needs");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](97, "tspan", 41);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](97, "tspan", 42);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](98, " Plant A ");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](99, "tspan", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](99, "tspan", 43);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](100, "to be in state");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](101, "tspan", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](101, "tspan", 44);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](102, " 1");
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()()()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnamespaceHTML"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](103, "app-citations");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](104, "app-citation", 44, 45);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](104, "app-citation", 45, 46);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
     } if (rf & 2) {
         const _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵreference"](105);
@@ -4249,8 +4075,24 @@ PreliminariesSupervisoryControlTheoryComponent.ɵcmp = /*@__PURE__*/ _angular_co
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("current", ctx.step)("step", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("offset", 0)("current", ctx.step)("step", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](47);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("offset", 0)("current", ctx.step)("step", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵclassProp"]("opacity-active", ctx.step >= 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵclassProp"]("opacity-active", ctx.step >= 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵclassProp"]("opacity-active", ctx.step >= 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵclassProp"]("opacity-active", ctx.step >= 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵclassProp"]("opacity-active", ctx.step >= 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵclassProp"]("opacity-active", ctx.step >= 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵclassProp"]("opacity-active", ctx.step >= 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵclassProp"]("opacity-active", ctx.step >= 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](12);
         _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵclassProp"]("opacity-active", ctx.step >= 5);
     } }, dependencies: [src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__.SlideComponent, _components_title_title_component__WEBPACK_IMPORTED_MODULE_2__.TitleComponent, _components_list_list_component__WEBPACK_IMPORTED_MODULE_3__.ListComponent, _components_list_item_list_item_component__WEBPACK_IMPORTED_MODULE_4__.ListItemComponent, _components_two_column_layout_two_column_layout_component__WEBPACK_IMPORTED_MODULE_5__.TwoColumnLayoutComponent, _components_citation_citation_component__WEBPACK_IMPORTED_MODULE_6__.CitationComponent, _components_citations_citations_component__WEBPACK_IMPORTED_MODULE_7__.CitationsComponent, _components_figure_figure_component__WEBPACK_IMPORTED_MODULE_8__.FigureComponent, _components_citation_reference_citation_reference_component__WEBPACK_IMPORTED_MODULE_9__.CitationReferenceComponent], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwcmVsaW1pbmFyaWVzLXN1cGVydmlzb3J5LWNvbnRyb2wtdGhlb3J5LmNvbXBvbmVudC5zY3NzIn0= */"] });
 
@@ -4696,6 +4538,158 @@ ToolsEditorsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODU
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 3);
     } }, dependencies: [src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__.SlideComponent, _components_title_title_component__WEBPACK_IMPORTED_MODULE_2__.TitleComponent, _components_list_list_component__WEBPACK_IMPORTED_MODULE_3__.ListComponent, _components_list_item_list_item_component__WEBPACK_IMPORTED_MODULE_4__.ListItemComponent, _components_two_column_layout_two_column_layout_component__WEBPACK_IMPORTED_MODULE_5__.TwoColumnLayoutComponent, _components_figure_figure_component__WEBPACK_IMPORTED_MODULE_6__.FigureComponent], styles: ["app-slide[_ngcontent-%COMP%]  .image {\n  width: 100%;\n  margin: 0 auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRvb2xzLWVkaXRvcnMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0U7RUFDRSxXQUFBO0VBQ0EsY0FBQTtBQUFKIiwiZmlsZSI6InRvb2xzLWVkaXRvcnMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJhcHAtc2xpZGU6Om5nLWRlZXAge1xuICAuaW1hZ2Uge1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIG1hcmdpbjogMCBhdXRvO1xuICB9XG59XG4iXX0= */"] });
+
+
+/***/ }),
+
+/***/ 2781:
+/*!***********************************************************************!*\
+  !*** ./src/app/slides/tools-generation/tools-generation.component.ts ***!
+  \***********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ToolsGenerationComponent": () => (/* binding */ ToolsGenerationComponent)
+/* harmony export */ });
+/* harmony import */ var src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/slide/slide.component */ 2459);
+/* harmony import */ var src_app_models_abstract_slide__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/models/abstract-slide */ 5726);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ 2560);
+/* harmony import */ var _components_title_title_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/title/title.component */ 9527);
+/* harmony import */ var _components_list_list_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/list/list.component */ 7309);
+/* harmony import */ var _components_list_item_list_item_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/list-item/list-item.component */ 1616);
+/* harmony import */ var _components_two_column_layout_two_column_layout_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/two-column-layout/two-column-layout.component */ 4013);
+/* harmony import */ var _components_figure_figure_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/figure/figure.component */ 3203);
+
+
+
+
+
+
+
+
+
+class ToolsGenerationComponent extends src_app_models_abstract_slide__WEBPACK_IMPORTED_MODULE_1__.AbstractSlide {
+    constructor() {
+        super();
+        this.max = 8;
+    }
+    ngOnInit() {
+    }
+}
+ToolsGenerationComponent.ɵfac = function ToolsGenerationComponent_Factory(t) { return new (t || ToolsGenerationComponent)(); };
+ToolsGenerationComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineComponent"]({ type: ToolsGenerationComponent, selectors: [["app-tools-generation"]], viewQuery: function ToolsGenerationComponent_Query(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵviewQuery"](src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__.SlideComponent, 5);
+    } if (rf & 2) {
+        let _t;
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵloadQuery"]()) && (ctx.slide = _t.first);
+    } }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵInheritDefinitionFeature"]], decls: 71, vars: 24, consts: [["label", "Generation"], [3, "current", "step"], [1, "emphasize"], ["caption", "Artifact generator pipeline."], ["xmlns", "http://www.w3.org/2000/svg", "width", "559", "height", "610", "viewBox", "0 0 559 610"], ["fill", "none", "transform", "translate(3.5 .5)"], ["width", "222", "height", "69", "x", "2.5", "y", "2.5", "fill", "#EE7773", "stroke", "#EE7773", "stroke-width", "5", "rx", "29"], ["fill", "#FFF", "font-family", "FiraSans-Regular, Fira Sans", "font-size", "25"], ["x", "52.636", "y", "46.5"], ["transform", "translate(227 31.658)", 1, "opacity-transition"], ["width", "227", "height", "74", "x", "97", "y", "115.342", "stroke", "#EE7773", "stroke-width", "5", "rx", "29"], ["fill", "#000", "font-family", "FiraSans-Regular, Fira Sans", "font-size", "25"], ["x", "193.136", "y", "160.842"], ["fill", "#EE7773", "d", "M121.272026,17.6275257 C152.363405,33.9134859 178.008131,57.8164166 198.183542,89.2993471 L208.787163,83.3885597 L210.243468,115.778823 L183.457474,97.5097095 L193.808005,91.7387844 C174.119156,61.102744 149.174641,37.8875955 118.951991,22.0566834 C81.5150286,2.44684598 42.5159712,-2.4120499 1.83924549,7.46374299 L0.606103794,7.76751958 L-1.81931126,8.37362337 L-3.03151885,3.52279326 L-0.606103794,2.91668947 C41.7073322,-7.65730858 82.3730791,-2.74811309 121.272026,17.6275257 Z"], ["transform", "translate(325 220.5)", 1, "opacity-transition"], ["width", "227", "height", "74", "y", "58.5", "stroke", "#EE7773", "stroke-width", "5", "rx", "29"], ["x", "55.136", "y", "106"], ["fill", "#EE7773", "d", "M115.456531,-2.04272554 L115.499629,0.456902957 L116.008,29.961 L128.006539,29.7542722 L114.008619,58.9999257 L99.0108484,30.2541979 L111.009,30.047 L110.500371,0.543097043 L110.457274,-1.95653146 L115.456531,-2.04272554 Z"], ["transform", "translate(324 352.5)", 1, "opacity-transition"], ["width", "227", "height", "74", "y", "61.5", "stroke", "#EE7773", "stroke-width", "5", "rx", "29"], ["x", "84.636", "y", "108"], ["fill", "#EE7773", "d", "M115.5,-2 L115.5,33 L127.5,33 L113,62 L98.5,33 L110.5,33 L110.5,-2 L115.5,-2 Z"], ["transform", "translate(0 73.5)", 1, "opacity-transition"], ["transform", "translate(0 458.5)"], ["width", "227", "height", "74", "fill", "#EE7773", "stroke", "#EE7773", "stroke-width", "5", "rx", "29"], ["x", "56.136", "y", "46.5"], ["fill", "#EE7773", "d", "M115.5-2L115.5 430 127.5 430 113 459 98.5 430 110.5 430 110.5-2 115.5-2zM436.657917 411.851482L441.648518 412.157917 441.4953 414.653218C439.881069 440.942522 429.32447 463.687915 409.888054 482.783341 392.001044 500.356544 340.656447 505.982277 255.215262 500.218844L254.263128 512.209933 226.501568 495.460431 256.558105 483.300885 255.61186 495.234187C339.482589 500.884694 389.952707 495.35963 406.383946 479.216659 424.750045 461.172772 434.752785 439.84975 436.452742 415.144886L436.5047 414.346782 436.657917 411.851482z"]], template: function ToolsGenerationComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "app-slide");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](1, "app-title", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](2, "app-two-column-layout")(3, "app-list")(4, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](5, " Synthesize ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](6, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](7, "supervisory controller");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](8, "app-list")(9, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](10, "Convert code to ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](11, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](12, "CIF");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](13, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](14, "Apply synthesis");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](15, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](16, "Generate ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](17, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](18, "engine");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](19, " code from controller");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](20, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](21, " Embed engine in ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](22, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](23, "ROS-node");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](24, " (for both versions) ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](25, "app-list")(26, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](27, "Listen for ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](28, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](29, "incoming");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](30, " data");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](31, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](32, "Execute ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](33, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](34, "control loop");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](35, "app-list-item", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](36, "Handle data ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](37, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](38, "storage");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](39, "app-figure", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnamespaceSVG"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](40, "svg", 4)(41, "g", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](42, "rect", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](43, "text", 7)(44, "tspan", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](45, "DSL-model");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](46, "g", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](47, "rect", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](48, "text", 11)(49, "tspan", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](50, "CIF");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](51, "path", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](52, "g", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](53, "rect", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](54, "text", 11)(55, "tspan", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](56, "Controller");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](57, "path", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](58, "g", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](59, "rect", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](60, "text", 11)(61, "tspan", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](62, "Code");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](63, "path", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](64, "g", 22)(65, "g", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](66, "rect", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](67, "text", 7)(68, "tspan", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](69, "ROS-node");
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](70, "path", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()()()()();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("current", ctx.step)("step", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵclassProp"]("opacity-active", ctx.step >= 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵclassProp"]("opacity-active", ctx.step >= 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵclassProp"]("opacity-active", ctx.step >= 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵclassProp"]("opacity-active", ctx.step >= 5);
+    } }, dependencies: [src_app_components_slide_slide_component__WEBPACK_IMPORTED_MODULE_0__.SlideComponent, _components_title_title_component__WEBPACK_IMPORTED_MODULE_2__.TitleComponent, _components_list_list_component__WEBPACK_IMPORTED_MODULE_3__.ListComponent, _components_list_item_list_item_component__WEBPACK_IMPORTED_MODULE_4__.ListItemComponent, _components_two_column_layout_two_column_layout_component__WEBPACK_IMPORTED_MODULE_5__.TwoColumnLayoutComponent, _components_figure_figure_component__WEBPACK_IMPORTED_MODULE_6__.FigureComponent], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0b29scy1nZW5lcmF0aW9uLmNvbXBvbmVudC5zY3NzIn0= */"] });
 
 
 /***/ }),

@@ -30,7 +30,7 @@ import { PreliminariesRosActionsComponent } from './slides/preliminaries-ros-act
 import { PreliminariesCifComponent } from './slides/preliminaries-cif/preliminaries-cif.component';
 import { PreliminariesMdeComponent } from './slides/preliminaries-mde/preliminaries-mde.component';
 import { OverviewMainIdeaComponent } from './slides/overview-main-idea/overview-main-idea.component';
-import { OverviewGenerationComponent } from './slides/overview-generation/overview-generation.component';
+import { ToolsGenerationComponent } from './slides/tools-generation/tools-generation.component';
 import { OverviewScopeComponent } from './slides/overview-scope/overview-scope.component';
 import { ToolsEditorsComponent } from './slides/tools-editors/tools-editors.component';
 import { ConceptsBaseComponent } from './slides/concepts-base/concepts-base.component';
@@ -80,7 +80,7 @@ import { NgChartsModule } from 'ng2-charts';
     PreliminariesCifComponent,
     PreliminariesMdeComponent,
     OverviewMainIdeaComponent,
-    OverviewGenerationComponent,
+    ToolsGenerationComponent,
     OverviewScopeComponent,
     ToolsEditorsComponent,
     ConceptsBaseComponent,

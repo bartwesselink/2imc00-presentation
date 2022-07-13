@@ -16,6 +16,7 @@
   --animate-delay: 250ms;
   --citation: #7F7F7F;
   --overlay-gray: #bdc3c7;
+  --blue: #3498db;
 }
 
 body {
@@ -59,4 +60,9 @@ video {
 
 .opacity-active {
   opacity: 1;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--blue) !important;
 }

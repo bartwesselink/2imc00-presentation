@@ -19,6 +19,7 @@
   --animate-delay: 250ms;
   --citation: #7F7F7F;
   --overlay-gray: #bdc3c7;
+  --blue: #3498db;
 }
 
 body {
@@ -63,6 +64,11 @@ video {
 
 .opacity-active {
   opacity: 1;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--blue) !important;
 }
 /*!*******************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./node_modules/prismjs/themes/prism.css ***!
